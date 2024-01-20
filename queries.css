@@ -1,0 +1,46 @@
+@media only screen and (max-width:768px) {
+    body{
+        width: 150vw;
+        animation: none;
+    }
+    #who h2,#do h2{
+        font-size: 1.2rem;
+    }
+    #do p, #who p{
+        margin-left: 9rem;
+        text-align: left;
+        line-break: loose;
+        font-size: 20px;
+    }
+    #wa-me{
+        margin-left: 7rem;
+    }
+    .container{
+        width: 100%;
+    }
+    .selling{
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+    .selling img{
+        max-width: 13rem;
+        max-height: 13rem;
+        position: absolute;
+        left: 8rem;
+        top: 20rem;
+        animation: 3s float infinite;
+    }.selling h2{
+        font-size: 1.5rem;
+    }
+    nav{
+        background-color: white;
+        width: 102vh;
+        margin-left: 5rem;
+        margin-top: -1.5rem;
+    }
+    nav ul{
+        margin-left: 5rem;
+        font-size: 13px;
+    }
+}

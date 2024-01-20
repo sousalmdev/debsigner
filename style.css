@@ -1,0 +1,322 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+    box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+  scrollbar-color: rgb(238, 130, 255);
+}
+.selling img{
+position: absolute;
+width: 30rem;
+height: 30rem;
+right: 20rem;
+top: 15rem;
+animation: 6s slidein-right forwards,2s float ease-in-out infinite 6s;
+overflow-x: hidden;
+filter: drop-shadow(0 0 0.75rem rgb(143, 17, 42));
+}
+.selling{
+  margin-top: 20rem;
+  padding-bottom: 21rem;
+  overflow-x: hidden;
+}
+.selling h2{
+  font-size: 50px;
+  font-weight: 300;
+  margin-left: 20rem;
+  animation: 6s slidein forwards;
+  overflow: hidden;
+}
+
+@keyframes slidein{
+  from{
+    transform: translateX(-100rem);
+  }to{
+    transform: translateX(0);
+  }
+} 
+@keyframes slidein-right{
+  from{
+    transform: translateX(100rem);
+  }to{
+    transform: translateX(0);
+  }
+} 
+  .title a{
+    text-decoration: none;
+    color: rgb(255, 60, 125);
+  }.title a:hover{
+    animation: none;
+  }
+body{
+  padding: 0 auto;
+  margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
+@keyframes popout {
+    from{transform:scale(0)}
+    80%{transform:scale(1.2)}
+    to{transform:scale(1)}
+}
+.title {
+    text-align: center;
+    font-weight: bolder;
+    animation: popout 2s forwards;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+nav{
+  position: fixed;
+  z-index: 1;
+  max-width: max-content;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  transition: .5s ease-in-out;
+  scroll-behavior: smooth;
+}
+nav .title{
+  font-size: 1.4rem;
+}
+nav ul{
+  list-style: none;
+  margin-left: 83rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+nav li{ 
+  display: inline;
+  padding: 10px;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+  transition: .5s;
+}
+nav ul a:hover{
+  font-size: 1.250rem;
+}
+@keyframes colorchange{
+  from{
+    color: black;
+  }
+  to{
+    color: white;
+  }
+} 
+  span{
+    margin-left: 6px;
+  }
+#wa-me{
+  padding-top: 8rem;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: .5s ease-in;
+  margin-bottom: 4rem;
+  margin-left: 47.4rem;
+}
+#wa-me button:hover:not(.insta){
+  box-shadow:  0 1px 10px #d151af;
+}
+#wa-me h2{
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: 2rem;
+}
+.insta{
+  text-decoration: none;
+  color: white;
+}
+#wa-me button{
+  width: 22rem;
+  margin-top: 2rem;
+  box-sizing: content-box;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: .5s ease;
+}
+#wa-me button:hover{
+  scale: 1.125;
+}
+#who h1{
+  padding-bottom: 25px;
+  font-size: 3rem;
+}
+#who h1, #who p{
+  color: #000;
+}
+#do h2{
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+  padding-bottom: 1.5rem;
+}
+#do h1{
+  padding-bottom: 2rem;
+  text-align: center;
+  color: #000000;;
+  font-size: 3rem;
+}
+
+#do{
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  scroll-behavior:ease-in;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  width: 100;
+  display: block;
+  flex-direction: column;
+  box-sizing: content-box;
+}
+#do li{
+ padding: 10px;
+
+  transition: 1.5s;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  padding-top: 5rem;
+}
+.restore{
+  height: auto;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+}
+.restore img{
+  position: absolute;
+  top: 66rem;
+  left:58rem
+}
+.gift{
+  padding-top: 10rem;
+}
+
+.logomark img{
+  position: absolute;
+  top: 92rem;
+  left:58.2rem
+}
+.shop img{
+  position: absolute;
+  top: 109rem;
+  left:58rem
+}
+.gift img{
+  position: absolute;
+  top: 140rem;
+  left:58.5rem
+}
+
+#do li{
+  list-style:none;
+   font-size: 2rem;
+     text-align: center;
+     padding-bottom: 5rem;
+}
+#who p{
+  text-align: left;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  margin-left: 28.5rem;
+}
+#do p{
+  width: 50%;
+  text-align: center;
+  line-break: loose;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 28.5rem;
+  font-weight: 500;
+}
+#wa-me p{
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+#email p{
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+#who,#wa-me,#email{
+    padding-top: 10rem;
+     color: #ffffff;
+     text-align: center;
+     flex-direction: column;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in-text {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+
+  
+body {
+    font-family: 'Poppins', sans-serif; /* Alterei a fonte para Poppins */
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(130deg,#ffffff , rgb(241, 105, 184)); 
+  }
+  #wa-me .insta{
+    color: white;
+    background: linear-gradient(150deg, rgb(0, 0, 0), rgb(239, 119, 239));
+
+  }
+  .insta:hover{
+    box-shadow: 0px 1px 10px white;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
