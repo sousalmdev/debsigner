@@ -271,7 +271,7 @@ nav ul a:hover{
   display: flex;
   flex-direction: column;
 }
-#who,#wa-me,#email{
+#who,#wa-me{
     padding-top: 10rem;
      color: #ffffff;
      text-align: center;

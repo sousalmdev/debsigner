@@ -1,17 +1,18 @@
 @media only screen and (max-width:768px) {
     body{
-        width: 150vw;
+        animation: none;
+        width: 100%;
+    }
+    .title{
         animation: none;
     }
-    #who h2,#do h2{
+    #who h2{
         font-size: 1.2rem;
     }
-    #do p, #who p{
-        margin-left: 9rem;
-        text-align: left;
-        line-break: loose;
-        font-size: 20px;
+    #do h2{
+        font-size: 1rem;
     }
+
     #wa-me{
         margin-left: 7rem;
     }
@@ -22,25 +23,81 @@
         align-items: center;
         justify-content: center;
         padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
     }
     .selling img{
         max-width: 13rem;
         max-height: 13rem;
         position: absolute;
-        left: 8rem;
-        top: 20rem;
+        left: 2.5rem;
+        top: 10rem;
         animation: 3s float infinite;
     }.selling h2{
-        font-size: 1.5rem;
+        line-height: fit-content;
+        font-size: 1.2rem;
+        position: absolute;
+        top: 22rem;
+        right: 4rem;
+        display: inline;
+        flex-direction: column;
+        animation: none;
     }
     nav{
-        background-color: white;
-        width: 102vh;
-        margin-left: 5rem;
-        margin-top: -1.5rem;
+        position: relative;
+    }
+    nav h2{
+        position: absolute;
+        left: 2rem;
     }
     nav ul{
         margin-left: 5rem;
         font-size: 13px;
+        display: none;
+    }
+    #do h1, #who h1{
+        font-size: 1.4rem;
+    }
+    #who p{
+        font-size: 14px;
+        text-align:center;
+        margin-left: 0;
+        flex-direction: row;
+        display: inline;
+        line-height: auto;
+    }
+    #do p{
+        font-size: 14px;
+        text-align:center;
+        flex-direction: row;
+        display: inline;
+        line-height: 0%;
+       padding-top: 0;   
+    }
+    #do h1{
+        margin-bottom: -4rem;
+    }
+    br{
+        display: none;
+    }
+    #wa-me{
+        display: inline;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #wa-me h2{
+        font-size: 1rem;
+    }
+    #wa-me h1{
+        font-size: 1rem;
+    }
+    #wa-me button{
+        font-size: 1rem;
+        width: 100%;
+        cursor: pointer;
+    }
+    body{
+        overflow-x:hidden;
     }
 }
