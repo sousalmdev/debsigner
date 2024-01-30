@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@emailjs/browser": "^3.12.1",
+    "body-parser": "^1.20.2",
+    "css.gg": "^2.1.1",
+    "emailjs": "^4.0.3",
+    "express": "^4.18.2",
+    "jquery": "^3.7.1"
+  },
+  "name": "debsigner",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

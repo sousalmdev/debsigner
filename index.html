@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Debsigner</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/slide.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
       rel="stylesheet">
-      <link rel="stylesheet" href="queries.css">
+      <link rel="stylesheet" href="/css/queries.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="script.js"></script>
+<script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="/js/mail.js"></script>
+    <script src="/js/form.js"></script>
+    <script src="/js/slide.js"></script>
+    <script src="/js/mailsent.js"></script>
 </head>
 <body> 
     
      <div class="container">
 
         <div class="header">
-            <nav>
+            <nav class="nav-link">
     <div class="title"><h2><a href="index.html">DEBSIGNER</a></h2></div>
     <ul>
-        <li><a href="#who">Quem Sou</a></li>
-        <li><a href="#do">O que faço</a></li>
-        <li><a href="#wa-me">Contato</a></li>
+        <li ><a href="#who">Quem Sou</a></li>
+        <li ><a href="#do">O que faço</a></li>
+        <li ><a href="#wa-me">Contato</a></li>
     </ul>
     </nav>
  </div>
@@ -36,11 +42,11 @@
         
 
         <div id="who">
-            <h1>Quem sou?</h1>
+            <h1 class=" text active">Quem sou?</h1>
             <p class="fade-in-text"><strong>Olá, eu sou Débora Viana Rodrigues,</strong> designer gráfica brasileira, apaixonada por arte desde pequena, e também sempre gostei de canalizar essa paixão por meio de edições, casualmente. Agora, profissionalmente, estou em compromisso com a arte, com a identidade visual dos meus clientes, e uso essa arte como uma forma de me aproximar com meu público.</p>
                 </div>
                 <div id="do">
-                    <h1>O que faço?</h1>
+                    <h1   class=" text active">O que faço?</h1>
                     <ul class="fade-in-text">
                         <div class="restore">
                     
@@ -57,17 +63,90 @@
                         
                         <li><h2>Encartes de Lojas</h2>
                     <p>Transforme a experiência de compra dos seus clientes <strong>com o meu serviço de design de encartes de loja!</strong> Como designer, eu capto a essência da sua marca e a traduzo em designs atraentes que chamam a atenção. Com um forte entendimento das tendências atuais do mercado e do comportamento do consumidor, eu crio encartes que não só destacam seus produtos, mas também contam a história da sua marca.</p></li></div>
-              
+                            <li><h2>Edição de Vídeos</h2></li>
+                            <p>Seja um vídeo promocional, um vlog pessoal ou uma produção cinematográfica completa, estou aqui para ajudar a transformar sua visão em realidade. Com dedicação, criatividade e atenção aos detalhes, estou comprometida em entregar resultados que não apenas atendam, mas superem suas expectativas.</p>
                     </ul>
+                </div>  
+                <section class="slide-cont"> 
+                    <div class="slideshow-container">
+                        <div class="slide">
+                            <p>After Effects</p>
+                            <br>
+                          <img src="/Download/slidepack/after-effects_5968428.png" alt="Slide 1">
+                          
+                        </div>
+                        <div class="slide">
+                          <img src="/Download/slidepack/capcut-png-icon.png" alt="Slide 2">
+                        </div>
+                        <div class="slide">
+                          <img src="/Download/slidepack/figma_5968705.png" alt="Slide 3">
+                        </div>
+                        <div class="slide">
+                            <img src="/Download/slidepack/illustrator_5968472.png" alt="Slide 4">
+                          </div>
+                          <div class="slide">
+                            <img src="/Download/slidepack/indesign_5968482.png" alt="Slide 5">
+                          </div>
+                          <div class="slide">
+                           <img src="/Download/slidepack/photoshop_5968520.png" alt="Slide 6">
+                          </div>
+                          <div class="slide">
+                            <img src="/Download/slidepack/premiere-pro_5968525.png" alt="Slide 7">
+                           </div>
+                           <div class="slide">
+                            <img src="/Download/slidepack/writting_5065623.png" alt="Slide 8">
+                           </div>
+                        <!-- Botões de avançar e voltar -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                      </div>
+                    
+                    </section>  
+                <footer>
+                    <h1 class="text active">Converse comigo!</h1>
+                    <div class="mail open">
+                    <button class="trigger" type="button"> <h2>Solicite seu Orçamento via E-Mail: </h2></button>
+                    <div class="content">
+                        <form id="meuFormulario">
+                            <label for="nome">Nome:</label><br>
+                            <input type="text" placeholder="Debora V..." id="nome" name="nome" required><br><br>
+                        
+                            <label for="email">E-mail:</label><br>
+                            <input type="email" id="email" name="email" placeholder="seuemail@provedor.com..." required><br><br>
+                        
+                            <input class="submit" id="submit" type="submit" value="Enviar">
+                        </form>
+                    
+                    
+                        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+                    </div>
+                </div>  
+                <div class="background-overload" id="backgroundOverlayLoading">
+                    <div class="alert-container" id="alertContainer">
+                        <div class="alert-box">
+                           <img src="/Download/slidepack/Rolling-1s-200px.gif" alt="" srcset="">
+                        </div>
+                    </div>
                 </div>
+                <div class="background-overlay" id="backgroundOverlay">
+                    <div class="alert-container" id="alertContainer">
+                        <div class="alert-box">
+                            <h2>Email enviado com sucesso!</h2>
+                            <p>Em instantes seu orçamento estará na mão. Obrigado!</p>
+                            <img src="/Download/slidepack/icons8-received-50.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+
                 <div id="wa-me">
-                    <h1>Converse comigo!</h1>
+                    
                     <a href="https://wa.link/20q8jc">
                         <button type="button">Acesse meu WhatsApp!<span class="fa fa-whatsapp"></span></button></a>
-                        <h2 href="none" type="text">ou</h2>
-
-                       <a href="https://www.instagram.com/thisisdeb_kk/"> <button type="button" class="insta">Manda um direct!<span class="fa fa-instagram"></span></button></a>
                 </div>
+              
+            </footer>
+
+           
             </div>
         </div>
 </div>  
