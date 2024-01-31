@@ -1,103 +1,99 @@
-@media only screen and (max-width:768px) {
-    body{
-        animation: none;
-        width: 100%;
-    }
-    .title{
-        animation: none;
-    }
-    #who h2{
-        font-size: 1.2rem;
-    }
-    #do h2{
-        font-size: 1rem;
-    }
-
-    #wa-me{
-        margin-left: 7rem;
-    }
-    .container{
-        width: 100%;
-    }
+@media screen and (max-width: 768px) {
     .selling{
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 2rem;
+        width: 80%;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .selling img{
-        max-width: 13rem;
-        max-height: 13rem;
-        position: absolute;
-        left: 2.5rem;
-        top: 10rem;
-        animation: 3s float infinite;
-    }.selling h2{
-        line-height: fit-content;
-        font-size: 1.2rem;
-        position: absolute;
-        top: 22rem;
-        right: 4rem;
-        display: inline;
-        flex-direction: column;
         animation: none;
+        width: 10rem;
+        margin-top: 6rem;
     }
-    nav{
-        position: relative;
-    }
-    nav h2{
-        position: absolute;
-        left: 2rem;
-    }
-    nav ul{
-        margin-left: 5rem;
-        font-size: 13px;
-        display: none;
-    }
-    #do h1, #who h1{
-        font-size: 1.4rem;
-    }
-    #who p{
-        font-size: 14px;
-        text-align:center;
-        margin-left: 0;
-        flex-direction: row;
-        display: inline;
-        line-height: auto;
-    }
-    #do p{
-        font-size: 14px;
-        text-align:center;
-        flex-direction: row;
-        display: inline;
-        line-height: 0%;
-       padding-top: 0;   
-    }
-    #do h1{
-        margin-bottom: -4rem;
-    }
-    br{
-        display: none;
-    }
-    #wa-me{
-        display: inline;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    #wa-me h2{
-        font-size: 1rem;
-    }
-    #wa-me h1{
-        font-size: 1rem;
-    }
-    #wa-me button{
-        font-size: 1rem;
+    .selling h2{
+        animation: none;
+        font-size: 1.5rem;
         width: 100%;
-        cursor: pointer;
     }
-    body{
-        overflow-x:hidden;
+    .selling button{
+        display: none;
+    }
+    header {
+        width: 100%; /* Ajuste a largura para ocupar 100% da largura da tela */
+    }
+
+    nav ul {
+        display: inline;
+        font-size: 1rem;
+        flex-direction: row;
+    }
+
+    nav {
+        background: transparent; 
+        z-index: 999;/* Mantenha o fundo do menu de navegação conforme necessário */
+    }
+
+    .title {
+        position: absolute;
+        top: 5px;
+        left: 10rem;
+        text-align: center;
+    }
+
+    #do, #who, #wa-me{
+      
+        display: flex; 
+         align-items: center;
+        justify-content:center;
+    }
+    #do p,#who p{
+        font-size: 1rem;
+       margin-left: 0;
+    }
+    #do h2, #who h2{
+        font-size: 1.5rem;
+    }
+    .container {
+        width: 100%; /* Ajuste a largura do container para ocupar 100% da largura da tela */
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    .slideshow-container{
+        grid-template-columns: 1fr 1fr;
+        flex-direction: column;
+        width: 80%;
+        background: none;
+    }
+    .slide img{
+        width: 150px;
+        filter: grayscale(0);
+    }
+}
+@media screen and (max-width: 610px){
+    nav ul{
+        display: none;
+    }
+    .selling{
+        display: none;
+    }
+    .mail{
+        width: 80%;
+        padding-inline: 20px;
+       
+    }
+
+    .mail button{
+         font-size: .7rem;
+    }
+
+    .slide {
+        padding-inline: 1px;
+        padding: 20px;
+        text-align: center;
+    }
+    .slide img{
+        width: 100px;
+    }
+    .slide h3{
+        font-size: .7rem;
     }
 }

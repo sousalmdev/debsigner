@@ -1,68 +1,56 @@
-.slide-cont{
-    display: flex;
-    padding-block: 15rem; 
-          justify-content: center;
-    align-items: center;
-}
-.slideshow-container {
-    border-radius: 1rem;
-    background-color: rgba(0, 0, 0, 0.611);
-    width: 40rem; /* 200px de largura da imagem multiplicado por 3 slides */
-    margin: auto; 
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row; 
-}
 
-.slide {
-    display: inline-block; /* Oculta todos os slides por padrão */
-    width: 300px; /* Largura da imagem */
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-}
 
+.slide{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
 .slide img {
-    padding-block: 5rem;
-    margin-left: 3rem;
-    width:200px;
+    padding: 2rem; /* Remova o padding para evitar o deslocamento das imagens */
+    width: 200px; /* Ajuste a largura das imagens para preencher completamente o contêiner */
     height: auto;
     filter: grayscale(1);
-    transition: .5s ease;
-}
- .prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 8px;
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
     z-index: 1;
+    transition: .5s ease-in;
 }
-
-.prev {
-    left: 0;
+.slide h3{
+    margin-top: -1.5rem;
+    transition: .5s ease-in;
 }
-
-.next {
-    right: 0;
+.slideshow-container {
+    padding: 50px;
+    background-color: rgba(240, 255, 255, 0.179);
+    border-radius: 1rem;
+    max-width: 50rem;
+    width: auto;
+    margin: auto;
+    position: relative; /* Adicione position: relative; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid #ff59ba;
 }
-.slide p{
-    text-align: center;
-    font-size: 2rem;
-    padding-bottom: 0;
-    transition: .5s ease;
+.skills{
+    padding-block: 7rem;
+    margin-top: 7rem;
+    margin-bottom: -5rem;
 }
 .slide:hover{
+    scale: 1.05;
     color: white;
-    text-shadow: 1px 0 10px palevioletred;
+    text-shadow: 1px 0px 2px crimson;
 }
 .slide img:hover{
-    scale: 1.1;
     filter: grayscale(0);
+}
+@media  only screen and (max-width:768px) {
+    .slideshow-container{
+        display: grid;
+        grid-template-areas: 1fr 1fr;
+    }
 }
