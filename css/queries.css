@@ -1,99 +1,28 @@
-@media screen and (max-width: 768px) {
-    .selling{
-        width: 80%;
-        display: flex;
-        flex-direction: column-reverse;
+@media only  screen and (max-width:768px) {
+    body{
+        object-fit: cover;
+        max-width: 100%;
+        overflow-x: hidden;
     }
-    .selling img{
-        animation: none;
-        width: 10rem;
-        margin-top: 6rem;
-    }
-    .selling h2{
-        animation: none;
-        font-size: 1.5rem;
-        width: 100%;
-    }
-    .selling button{
-        display: none;
-    }
-    header {
-        width: 100%; /* Ajuste a largura para ocupar 100% da largura da tela */
-    }
-
-    nav ul {
-        display: inline;
-        font-size: 1rem;
-        flex-direction: row;
-    }
-
-    nav {
-        background: transparent; 
-        z-index: 999;/* Mantenha o fundo do menu de navegação conforme necessário */
-    }
-
-    .title {
-        position: absolute;
-        top: 5px;
-        left: 10rem;
-        text-align: center;
-    }
-
-    #do, #who, #wa-me{
-      
-        display: flex; 
-         align-items: center;
-        justify-content:center;
-    }
-    #do p,#who p{
-        font-size: 1rem;
-       margin-left: 0;
-    }
-    #do h2, #who h2{
-        font-size: 1.5rem;
-    }
-    .container {
-        width: 100%; /* Ajuste a largura do container para ocupar 100% da largura da tela */
-        margin: 0 auto;
-        padding: 0 auto;
-    }
-    .slideshow-container{
-        grid-template-columns: 1fr 1fr;
-        flex-direction: column;
-        width: 80%;
-        background: none;
-    }
-    .slide img{
-        width: 150px;
-        filter: grayscale(0);
-    }
-}
-@media screen and (max-width: 610px){
     nav ul{
         display: none;
+
     }
-    .selling{
+   
+    .selling{ 
+        opacity: 0;
         display: none;
     }
-    .mail{
-        width: 80%;
-        padding-inline: 20px;
-       
+    .title{
+        background: none;
+        color: white;
+   padding-left: 3rem;
+    } 
+    #who p{
+        font-size: 8px;
+        display: block;
     }
-
-    .mail button{
-         font-size: .7rem;
-    }
-
-    .slide {
-        padding-inline: 1px;
-        padding: 20px;
-        text-align: center;
-    }
-    .slide img{
+    .slide{
         width: 100px;
-    }
-    .slide h3{
-        font-size: .7rem;
     }
 }

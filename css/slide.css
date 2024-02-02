@@ -49,8 +49,24 @@
     filter: grayscale(0);
 }
 @media  only screen and (max-width:768px) {
+    .skills h1
+    {
+        font-size: 2rem;
+    }
     .slideshow-container{
+        padding: 5px;
+        width: 80%;
         display: grid;
-        grid-template-areas: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        z-index: 1;
+    }
+    .slide{
+        padding: 15px;
+        font-size: 12px;
+    }
+    .slide img{
+        filter: grayscale(0);
+        width: 100px;
+        height: 100px;
     }
 }

@@ -1,10 +1,23 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins",sans-serif;
-    box-sizing: border-box;
-}
+  body{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    background: linear-gradient(-100deg,#000000 , #b0327b); 
+    background-size: cover;
+      font-family: 'Poppins', sans-serif; 
+      margin: 0;
+      padding: 0;
+    }
+    *, 
+    *:after,
+    *:before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
 html{
   scroll-behavior: smooth;
   scrollbar-color: rgb(238, 130, 255);
@@ -210,7 +223,8 @@ nav ul a:hover{
   color: #ffffff;
 }
 #do h2{
-  font-size: 2.5rem;
+  text-align: center;
+  font-size: 1.5rem;
   color: rgb(255, 255, 255);
   padding-bottom: 1.5rem;
 }
@@ -222,11 +236,9 @@ nav ul a:hover{
 }
 
 #do{ 
-   display:flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+   display:block;
   margin-top: 10rem;
-  scroll-behavior:ease-in;
   color: rgb(255, 255, 255);
   flex-direction: column;
 }
@@ -238,6 +250,15 @@ nav ul a:hover{
   border-radius: 1rem;
   margin-bottom: 2rem;
   padding-top: 2rem;
+}
+#do span {
+  background-color: white;
+  content: '_';
+  width: 10rem;
+  margin-bottom: 2rem;
+  margin-top: -1.3rem;
+  color: white;
+  height: 1px;
 }
 .restore{
   height: auto;
@@ -324,19 +345,15 @@ nav ul a:hover{
 
 
   
-body {
-    font-family: 'Poppins', sans-serif; /* Alterei a fonte para Poppins */
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-  }
+
   
   .container{
+    display: block;
+    max-width: 100%;
     padding-top: 0;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(-100deg,#000000 , #b0327b); 
-  }
+    }
 
   footer {
     color: #fff;
