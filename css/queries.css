@@ -8,21 +8,52 @@
         display: none;
 
     }
+    nav{
+        display:flex; 
+        
+    }
    
     .selling{ 
         opacity: 0;
         display: none;
     }
-    .title{
-        background: none;
-        color: white;
-   padding-left: 3rem;
-    } 
+    
+        .title{
+            position: relative;
+            width: 100%;
+        }
     #who p{
-        font-size: 8px;
+        font-size: 20px;
         display: block;
     }
     .slide{
         width: 100px;
+    }
+}
+@media only  screen and (max-width:592px){
+    nav{
+        position: relative;
+    }
+    #do p,#who p{
+        width: 100%;
+        padding: 30px;
+    }
+    #do h1, #who h1,footer h1{
+        font-size: 1.7rem;
+    }
+    #do h2{
+        font-size: 1.4rem;
+    }
+    footer button h2{
+        font-size: 17px;
+    }
+    footer{
+        width: 100%;
+        padding: 40px;
+    }
+    #wa-me button{
+        font-size: 20px;
+        padding-inline: 10px;
+        width: fit-content;
     }
 }

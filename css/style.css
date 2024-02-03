@@ -18,10 +18,9 @@
         box-sizing: border-box;
         text-decoration: none;
     }
-html{
-  scroll-behavior: smooth;
-  scrollbar-color: rgb(238, 130, 255);
-}
+    html{
+      scroll-behavior: smooth;
+    }
 .selling img{
 display: flex;
 width: auto;
@@ -406,7 +405,7 @@ nav ul a:hover{
     justify-content: center;
     background:linear-gradient(100deg,#000000 , #b0327b);
     color: black;
-    border: .5px solid white;
+    box-shadow: 1px 0px 15px rgb(0, 0, 0);
     transition:max-height 2s ease;
   }
 
@@ -422,12 +421,12 @@ nav ul a:hover{
     display: none; 
   
   }
+  .open button{
+    box-shadow: 1px 0px 15px black;
+  }
   .open{
     display: block;  
     border-top: none;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem; 
- 
   }    
   .open form{
     transition: 1s ease-in; 
@@ -453,10 +452,7 @@ nav ul a:hover{
   background: linear-gradient(90deg,rgb(0, 0, 0),#ff6bc1b4); 
    color:white;
 }
-.trigger:hover{
 
-  background:radial-gradient(rgba(219, 63, 154, 0.291),white);
-}
 .trigger{
   transition: .5s ease;
 }
