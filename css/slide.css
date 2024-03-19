@@ -6,44 +6,45 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    transition: .3s ease;
 
 }
 .slide img {
-    padding: 2rem; /* Remova o padding para evitar o deslocamento das imagens */
-    width: 200px; /* Ajuste a largura das imagens para preencher completamente o contêiner */
+    padding: 2rem; 
+    width: 250px; 
     height: auto;
     filter: grayscale(1);
     z-index: 1;
-    transition: .5s ease-in;
+    transition: .3s ease;
+
 }
 .slide h3{
     margin-top: -1.5rem;
-    transition: .5s ease-in;
+    font-size: 1.5rem;
+    transition: .3s ease;
 }
 .slideshow-container {
-    padding: 50px;
-    background-color: rgba(240, 255, 255, 0.179);
-    border-radius: 1rem;
-    max-width: 50rem;
-    width: auto;
+    width: 80%;
     margin: auto;
-    position: relative; /* Adicione position: relative; */
     display: grid;
+    gap: 30px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
+    place-items: center;
     flex-direction: row;
-    border: 1px solid #ff59ba;
 }
 .skills{
-    padding-block: 7rem;
-    margin-top: 7rem;
-    margin-bottom: -5rem;
+    padding-block: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    color: white;
+    height: 900px;
 }
 .slide:hover{
     scale: 1.05;
-    color: white;
-    text-shadow: 1px 0px 2px crimson;
+    color: rgb(255, 90, 167);
 }
 .slide img:hover{
     filter: grayscale(0);
@@ -55,18 +56,19 @@
     }
     .slideshow-container{
         padding: 5px;
-        width: 80%;
+        width: 100%;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
         z-index: 1;
+        transition: .3 ease;
     }
-    .slide{
-        padding: 15px;
-        font-size: 12px;
+    .slide h3{
+        font-size: 1rem;
     }
+   
     .slide img{
         filter: grayscale(0);
-        width: 100px;
-        height: 100px;
+        width: 150px;
     }
+    
 }
