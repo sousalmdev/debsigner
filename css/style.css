@@ -187,9 +187,9 @@ nav ul a:hover{
   justify-content: center;
   transition: .5s ease-in;
   margin-bottom: 4rem;
-  background-color: rgb(142, 142, 142);
+  background-color: white;
   position: fixed;
-
+  z-index:3;
 }
 #wa-me button:hover:not(.insta){
   box-shadow:  0 1px 10px #d151af;
