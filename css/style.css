@@ -43,7 +43,6 @@ overflow-x: hidden;
   border: 1px solid white;
   background:#ff6bc1b4;
 }
-.selling button:hover{
   
   background: #ff59ba98;
 }
@@ -309,7 +308,7 @@ nav ul a:hover{
   align-items: center;
   justify-content: center;
   bottom: 0;
-  right: 2.9rem;
+  right: 2rem;
    text-align: center;
    flex-direction: column;
    font-size: 2rem;
@@ -317,7 +316,7 @@ nav ul a:hover{
 #wa-me a{
   margin-bottom: 2rem;
   text-decoration: none;
-  color: rgb(153, 255, 0);
+  color: rgb(255, 0, 119);
 }
 @keyframes fadeIn {
     from {
