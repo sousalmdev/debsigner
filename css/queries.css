@@ -19,7 +19,7 @@
     nav ul{
       display: flex;
       gap: 20px;
-      right: 10px;
+      right: 30px;
     }
     #us,#wh,#st,#ph{
       display: flex;
