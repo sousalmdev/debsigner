@@ -9,7 +9,8 @@
 
     }
     nav{
-        display:flex; 
+        display:flex;
+        position: fixed; 
         
     }
    .selling button{
@@ -76,7 +77,7 @@
 }
 @media only  screen and (max-width:592px){
     nav{
-        position: relative;
+        position: fixed;
     }
     #do p,#who p{
         width: 100%;
