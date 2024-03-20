@@ -169,14 +169,17 @@ nav button{
   border-radius: 4px;
   cursor: pointer;
   transition: .3s ease;
+
 }
 nav button:hover{
   color: white;
   background-color: rgb(255, 0, 119);
 }
-nav ul a:hover{
+nav ul a:hover {
   font-size: 1.250rem;
 }
+
+
 @keyframes colorchange{
   from{
     color: black;
@@ -185,21 +188,12 @@ nav ul a:hover{
     color: white;
   }
 } 
- .fa .fa-whatsapp{
-    height: 40px;
-    background-color: white;
-    font-size: 4rem;
-  }
+
   
-#wa-me button:hover:not(.insta){
-  box-shadow:  0 1px 10px #d151af;
-}
 
 
 
-#wa-me button:hover{
-  scale: 1.125;
-}
+
 #who h1{
   padding-bottom: 25px;
   font-size: 3rem;
@@ -317,8 +311,8 @@ nav ul a:hover{
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: 1rem;
-  right: 2rem;
+  bottom: 4rem;
+  right: 1rem;
    text-align: center;
    flex-direction: column;
    font-size: 2rem;
