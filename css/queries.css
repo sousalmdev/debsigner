@@ -9,15 +9,16 @@
 
     }
     nav{
-        display:flex;
+      width: 100%;
         position: fixed; 
-        
+        margin: 0;
     }
+
    .selling button{
     display: none;
    }.selling img{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     animation: none;
    }
    .selling{
@@ -26,28 +27,31 @@
     width: 100%;
     padding: 20px;
     height: 500px;
-    gap: 4rem;
+    margin-top: 2rem;
    }
     .selling h2{
-      font-size: 1.5rem;
+      font-size: 1.2rem;
+      width: 100%;
+      text-align: center;
     }
     .selling h3{
       font-size: 1rem;
+      text-align: center;
     }
     .mid-span{
       display: flex;
       text-align: center;
       align-items: center;
       justify-content: center;
-      margin: 0 auto;
       font-size: 2rem;
       margin-bottom: 3rem;
       color: white;
       animation: 1s float infinite;
     }
         .title{
-            position: relative;
+            position: fixed;
             width: 100%;
+            margin-left: 0;
         }
     #who p{
         font-size: 20px;
@@ -76,9 +80,6 @@
       }
 }
 @media only  screen and (max-width:592px){
-    nav{
-        position: fixed;
-    }
     #do p,#who p{
         width: 100%;
         padding: 30px;

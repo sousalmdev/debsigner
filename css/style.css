@@ -133,16 +133,13 @@ nav{
   background-color: rgba(0, 0, 0, 0.426);
   backdrop-filter: blur(.5rem);
   color: white;
-  flex-direction: row;
-  display: inline-flex;
+  display: flex;
   transition: .5s ease-in-out;
   width: 100%;
   z-index: 2;
 }
 
 nav .title{
-  left: 5px;
-  position: fixed;
   font-size: 1.4rem;
   display: inline;
   flex-direction: row;
