@@ -118,38 +118,37 @@ overflow-x: hidden;
   to{transform:scale(1)}
 }
 .title {
-    text-align: center;
     font-weight: bolder;
     animation: popout 2s forwards;
     font-size: 2rem;
-    margin: 0 auto;
 }
 nav{
   height: 3rem;
   top: 0;
   position: fixed;
   align-items: center;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, 0.426);
+  background-color: rgba(0, 0, 0, 0.743);
   backdrop-filter: blur(.5rem);
   color: white;
   display: flex;
   transition: .5s ease-in-out;
   width: 100%;
   z-index: 2;
+  padding-inline: 20px;
 }
 
-nav .title{
+ .title{
   font-size: 1.4rem;
-  display: inline;
-  flex-direction: row;
+  left: 20px;
 }
 nav ul{
   list-style: none;
   font-size: 1.2rem;
   font-weight: 500;
-  position: fixed;
-  right: 0;
+  align-self: center;
+  right: 10px;
+  position: absolute;
+  
 }
 nav li{ 
   display: inline;
@@ -159,6 +158,21 @@ nav a{
   text-decoration: none;
   color: rgb(255, 255, 255);
   transition: .5s;
+}
+nav button{
+  padding-inline: 16px;
+  padding-block: 4px;
+  font-size: 1.2rem;
+  background-color: rgb(50, 50, 50);
+  color: rgb(255, 0, 119);
+  border: 1px solid rgb(255, 0, 119);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .3s ease;
+}
+nav button:hover{
+  color: white;
+  background-color: rgb(255, 0, 119);
 }
 nav ul a:hover{
   font-size: 1.250rem;
@@ -213,6 +227,9 @@ nav ul a:hover{
   color: rgb(0, 0, 0);
   flex-direction: column;
   background-color: white;
+  }
+#us,#wh,#st,#ph{
+  display: none;
 }
 #do li{
  padding: 10px;

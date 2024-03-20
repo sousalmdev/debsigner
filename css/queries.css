@@ -4,16 +4,27 @@
         max-width: 100%;
         overflow-x: hidden;
     }
-    nav ul{
-        display: none;
 
-    }
     nav{
       width: 100%;
         position: fixed; 
         margin: 0;
+        display: flex;
+        justify-content: start;
+        flex-direction: row;
     }
-
+    nav li{
+      display: none;
+    }
+    nav ul{
+      display: flex;
+      gap: 20px;
+      right: 10px;
+    }
+    #us,#wh,#st,#ph{
+      display: flex;
+      flex-direction: row;
+    }
    .selling button{
     display: none;
    }.selling img{
@@ -27,7 +38,7 @@
     width: 100%;
     padding: 20px;
     height: 500px;
-    margin-top: 2rem;
+    margin-top: 5rem;
    }
     .selling h2{
       font-size: 1.2rem;
@@ -50,15 +61,15 @@
     }
         .title{
             position: fixed;
-            width: 100%;
-            margin-left: 0;
+            left: 0;
+            font-size: 1rem !important;
         }
-    #who p{
-        font-size: 20px;
+    #who p,#do p{
+        font-size: 15px;
         display: block;
     }
     #who{
-        height:1000px;
+        height:800px;
     }
     .slide{
         width: 100px;
@@ -82,7 +93,7 @@
 @media only  screen and (max-width:592px){
     #do p,#who p{
         width: 100%;
-        padding: 30px;
+        padding: 10px;
     }
     #do h1, #who h1,footer h1{
         font-size: 1.7rem;
@@ -129,5 +140,8 @@
       }
       .content form{
         padding: 0;
+      }
+      .skills{
+       padding-block: 6rem;
       }
 }
