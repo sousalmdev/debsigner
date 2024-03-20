@@ -12,12 +12,38 @@
         display:flex; 
         
     }
-   
-    .selling{ 
-        opacity: 0;
-        display: none;
+   .selling button{
+    display: none;
+   }.selling img{
+    width: 200px;
+    height: 200px;
+    animation: none;
+   }
+   .selling{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    height: 500px;
+    gap: 4rem;
+   }
+    .selling h2{
+      font-size: 1.5rem;
     }
-    
+    .selling h3{
+      font-size: 1rem;
+    }
+    .mid-span{
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      font-size: 2rem;
+      margin-bottom: 3rem;
+      color: white;
+      animation: 1s float infinite;
+    }
         .title{
             position: relative;
             width: 100%;
@@ -27,7 +53,7 @@
         display: block;
     }
     #who{
-        height:600px;
+        height:1000px;
     }
     .slide{
         width: 100px;
@@ -73,7 +99,7 @@
     }
     .content{ 
         width: 300px;
-        height: 400px;
+        height: 500px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -95,6 +121,9 @@
       }
       .content form{
         background:none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       .content form{
         padding: 0;

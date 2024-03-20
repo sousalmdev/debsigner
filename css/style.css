@@ -43,6 +43,7 @@ overflow-x: hidden;
   border: 1px solid white;
   background:#ff6bc1b4;
 }
+.selling button:hover{
   
   background: #ff59ba98;
 }
@@ -179,18 +180,6 @@ nav ul a:hover{
     font-size: 4rem;
   }
   
-#wa-me{
-  padding-top: 2rem;
-  display: inline-block;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: .5s ease-in;
-  margin-bottom: 4rem;
-  background-color: white;
-  position: fixed;
-  z-index:3;
-}
 #wa-me button:hover:not(.insta){
   box-shadow:  0 1px 10px #d151af;
 }
@@ -208,9 +197,10 @@ nav ul a:hover{
   color: #ffffff;
 }
 #do h2{
+  width: auto;
   text-align: center;
   font-size: 1.5rem;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding-bottom: 1.5rem;
 }
 #do h1{
@@ -223,14 +213,15 @@ nav ul a:hover{
   width: 100%;
    display:block;
   padding-block: 8rem;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   flex-direction: column;
+  background-color: white;
 }
 #do li{
  padding: 10px;
   transition: 1.5s;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   border-radius: 1rem;
   margin-bottom: 2rem;
   padding-top: 2rem;
@@ -293,13 +284,18 @@ nav ul a:hover{
   flex-direction: column;
 }
 #who{
-  padding-block: 4rem;
+  height: 1000px;
   display: flex;
+ padding-top: 4rem;
   align-items: center;
-  justify-content: center;
      text-align: left;
      flex-direction: column;
+     background-color: rgb(255, 0, 119);
 }
+#who h1{
+  color: white;
+}
+
 #wa-me{
   width: 40px;
   height: 40px;
@@ -307,14 +303,16 @@ nav ul a:hover{
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: 0;
+  bottom: 1rem;
   right: 2rem;
    text-align: center;
    flex-direction: column;
    font-size: 2rem;
+   position: fixed;
+   background-color: white;
+   box-shadow: 0px 0px 10px black;
 }
 #wa-me a{
-  margin-bottom: 2rem;
   text-decoration: none;
   color: rgb(255, 0, 119);
 }
@@ -358,7 +356,7 @@ nav ul a:hover{
     font-size: 2.5rem;
   }
 .mail{
-  padding-block: 6rem;
+  padding-block: 4rem;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -390,7 +388,6 @@ nav ul a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     margin: 0 auto;
    padding: 20px;
    text-align: left;
@@ -413,23 +410,24 @@ nav ul a:hover{
     font-size: 17px;
   }
 #submit{
-  margin-top: 1rem;
+  margin-top: 2rem;
      transition: .5s ease;
   padding: 14px;
   width: 240px;
   border-radius: .4rem;
   cursor: pointer;
-  border: 1px solid white;
-  background-color: rgb(255, 0, 119);
-  color: white;
+  border: 1px solid rgb(255, 0, 119);
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 119);
   font-size: 1rem;
 }
-
-
-
-.trigger{
-  transition: .5s ease;
+#submit:hover{
+  color: white;
+  background-color: rgb(255, 0, 119);
 }
+
+
+
 #do h1,#who h1,#wa-me h1{
   animation: none;
 }
@@ -442,83 +440,11 @@ nav ul a:hover{
   to{transform:scale(1)}
 }
 
-.background-overlay {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  background-color: rgba(255, 255, 255, 0.348); 
-  backdrop-filter: blur(.3rem);
-  display: none; /* Ocultar por padrão */
-}
-
-.background-overlay .alert-container{
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  top: 25rem;
-  left: 45rem;
-  width: 400px;
-  height: 200px;
-  background: linear-gradient(160deg,rgb(59, 59, 59),#ff59ba);
-  padding: 20px;
-  border-radius: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-.alert-box{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.alert-box h2 {
-  color: #ffffff;
-  text-shadow:1px 0px 5px #000;
-}
-
-.alert-box p {
-  color: #ffffff;
-  text-shadow:1px 0px 5px #000;
-  text-align: center;
-}
-.alert-box img{
-  margin-top: 1rem;
-  box-sizing: content-box;
-  filter:drop-shadow( 0px 0px 4px #000);
-}
-
-
-.background-overload {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  background-color: rgba(255, 255, 255, 0.348); 
-  backdrop-filter: blur(.3rem);
-  display: none; /* Ocultar por padrão */
-}
-
-.background-overload .alert-container {
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  top: 25rem;
-  left: 45rem;
-  width: 400px;
-  height: 200px;
-  padding: 20px;
-  border-radius: 1rem;
-}
-
-#backgroundOverlayLoading img{
-  width: 50px;
-  height: 50px;
-}
  h1{
   text-align: center;
   font-size: 3rem;
   color: rgb(255, 0, 119);
-  text-decoration: underline 1px;
+}
+.mid-span{
+  display: none;
 }
