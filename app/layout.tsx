@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <Header />
       <body
-        className={` ${rale.className} flex flex-col min-h-screen bg-black w-full items-center justify-center `}
+        className={` ${rale.className} flex flex-col min-h-screen bg-white w-full items-center justify-center `}
       >
         {children}
       </body>

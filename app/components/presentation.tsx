@@ -1,41 +1,46 @@
+"use client";
+
 import Image from "next/image";
-import { abril, oi, rale } from "../assets/fonts/fonts";
-import mockups from "@/app/assets/images/Component 9.svg";
+import { rale } from "../assets/fonts/fonts";
+import mockups from "@/app/assets/images/Frame 22.svg";
+import { motion } from "framer-motion";
 export const Presentation = () => {
   return (
-    <section className="bg-black sm:min-h-screen py-24 flex sm:items-center justify-center  w-full">
-      <div className=" w-11/12  sm:gap-12 xl:flex-row flex-col flex items-center justify-start sm:justify-between">
-        <div className="flex-col">
-          <h1
-            className={`${rale.className} w-full sm:text-left text-center text-debpink text-2xl sm:text-xl md:text-3xl xl:text-5xl font-normal`}
-          >
-            Já teve a vontade de ver sua essência estampada nos seus produtos?
-          </h1>
-          <br />
-          <h2
-            className={` ${oi.className} w-fit p-2  xl:bg-white text-white xl:text-black text-4xl md:text-left text-center md:text-6xl sm:text-5xl  xl:text-6xl`}
-          >
-            Eu posso te ajudar com isso.
-          </h2>
+     <motion.div
+     initial={{ opacity: 0, y: 50 }}
+     transition={{ duration: 0.5 }}
+    whileInView={{ opacity: 1, y: 0 }}
+      
+    >
+      <section className="bg-white sm:min-h-screen py-24 flex sm:items-center justify-center  w-full">
+      
+    <div className=" w-11/12  sm:gap-12 xl:flex-row flex-col-reverse flex items-center justify-start sm:justify-around">
+           <div className="flex-col">
+            <h1
+              className={`${rale.className} w-full sm:text-left text-center text-black text-2xl sm:text-xl md:text-3xl xl:text-7xl font-light`}
+            >
+              Essência e criatividade, <br />{" "}
+              <span className="font-black text-debpink">
+                tudo em um só lugar.
+              </span>
+            </h1>
+            <p className="md:text-3xl text-gray-600 text-sm mt-5 md:w-4/5 w-full md:text-left font-light text-center">
+              Mais que criar simples grupos de cores e figuras, somos
+              direcionados a trazer emoções em formato de arte, detalhe por
+              detalhe, identidade e compromisso com o que sua marca mais
+              precisar!{" "}
+            </p>
+          </div>
+       
+<Image
+            src={mockups}
+            alt="mockups"
+            className="animate-smooth sm:mt-0 mt-5"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            width={750}
+          />
 
-          <br />
-          <h3 className="w-full sm:text-4xl font-bold sm:text-left text-center  text-debpink">
-            <span className="underline">
-              {" "}
-              Arrasta aí pra baixo que você vai descobrir como
-            </span>
-            !
-          </h3>
-        </div>
-        <Image
-          src={mockups}
-          alt="mockups"
-          className="animate-smooth sm:mt-0 sm:ml-0 ml-5 mt-5"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          width={750}
-          quality={100}
-        />
-      </div>{" "}
-    </section>
-  );
+        </div>  
+      </section></motion.div>
+  ); 
 };
