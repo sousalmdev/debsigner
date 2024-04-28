@@ -14,7 +14,7 @@ export const Presentation = () => {
         <motion.div
      animate={{ opacity: 0, y: 50 }}
     initial={false}
-    transition={{duration:0.5}}
+    transition={{duration:1}}
     whileInView={{ opacity: 1, y: 0 }}
     className="flex items-center justify-around md:gap-0 gap-20"
      >  

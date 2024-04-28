@@ -10,8 +10,8 @@ const Header = () => {
     <header className={`${rale.className} border-b border-black/20 z-50 shadow  w-full fixed top-0 py-1 left-0 flex items-center text-debpink bg-white justify-center `}>
       <nav className=' w-11/12 flex items-center justify-between'>
         <div>
-          <Link href="#"><Image src={logo} width={300} className='sm:block hidden' alt='logo' />
-          <Image src={secLogo} width={200} alt='logo2' className='sm:hidden block' /></Link>
+          <Link href="#"><Image quality={100} priority={true} src={logo} width={300} className='sm:block hidden' alt='logo' />
+          <Image quality={100} priority={true} src={secLogo} width={200} alt='logo2' className='sm:hidden block' /></Link>
         </div>
         <ul className='xl:flex items-center sm:flex hidden divide-x'>
           <li className='px-2'><Link className=' font-bold md:text-lg text-smcd' href="">Home</Link></li>

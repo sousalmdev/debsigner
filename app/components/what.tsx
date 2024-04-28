@@ -38,7 +38,7 @@ export const What = () => {
       </h1>
       <div className="text-xl gap-10 w-full flex flex-col justify-center items-center">
       <motion.div className="flex justify-center" initial={{ opacity: 0, y: 50 }}
-     transition={{ duration: 0.5 }}
+     transition={{ duration: 1 }}
     whileInView={{ opacity: 1, y: 0 }}
     > <Card className="rounded-md bg-center py-10 px-5 md:px-10 md:w-8/12 w-full bg-black text-debpink mb-8 md:flex-row flex-col flex items-center justify-center">
           <CardHeader

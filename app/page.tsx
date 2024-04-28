@@ -16,7 +16,7 @@ export default function Home() {
      
         < Presentation />
 <motion.div initial={{ opacity: 0, y: 50 }}
-     transition={{ duration: 0.5 }}
+     transition={{ duration: 1 }}
     whileInView={{ opacity: 1, y: 0 }}
     >
 
@@ -56,17 +56,17 @@ export default function Home() {
       </div>
   </motion.div>
   <motion.div initial={{ opacity: 0, y: 50 }}
-     transition={{ duration: 0.5 }}
+     transition={{ duration: 1 }}
     whileInView={{ opacity: 1, y: 0 }}
     >
       <What /></motion.div>
       <motion.div initial={{ opacity: 0, y: 50 }}
-     transition={{ duration: 0.5 }}
+     transition={{ duration: 1 }}
     whileInView={{ opacity: 1, y: 0 }}
     >
       <Skills /></motion.div>
       <motion.div initial={{ opacity: 0, y: 50 }}
-     transition={{ duration: 0.5 }}
+     transition={{ duration: 1 }}
     whileInView={{ opacity: 1, y: 0 }}
     ><Who /></motion.div>
 

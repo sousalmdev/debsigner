@@ -1,5 +1,6 @@
 import { FigmaLogoIcon } from "@radix-ui/react-icons";
 import { rale } from "../assets/fonts/fonts";
+
 import {
   Carousel,
   CarouselContent,
@@ -17,11 +18,12 @@ import {
   SiCanva,
 } from "react-icons/si";
 import { DiPhotoshop } from "react-icons/di";
+import { motion } from "framer-motion";
 export const Skills = () => {
   return (
     <section
       id="skills"
-      className="w-full p-7 min-h-screen flex flex-col items-center justify-center"
+      className="w-full p-7 py-24 flex flex-col items-center justify-center"
     >
       <h1
         className={` text-debpink text-center mb-4 md:md:text-6xl font-black text-center text-xl`}
@@ -39,7 +41,7 @@ export const Skills = () => {
       </p>
       <div className="md:w-11/12 w-full flex p-5 h-1/2 items-center justify-center">
         {" "}
-        <Carousel className="md:w-1/2 w-full flex items-center  self-center py-10 md:py-20">
+      <Carousel className="md:w-1/2 w-full flex items-center  self-center py-10 md:py-20">
           <CarouselContent className="  m-0 bg-black">
             <CarouselItem className="border-debpink border-8 flex flex-col w-full items-center justify-center bg-black p-2 md:p-5">
               <FiFigma className="md:text-8xl text-7xl  text-debpink" />
@@ -170,6 +172,7 @@ export const Skills = () => {
           <CarouselPrevious />
         </Carousel>
       </div>
+      
     </section>
   );
 };
