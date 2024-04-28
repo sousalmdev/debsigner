@@ -144,7 +144,7 @@ export const What = () => {
             priority={true}
             className="block md:hidden"
               style={{ borderRadius: 10 }}
-              src={loveResp.src}
+              src={videoResp.src}
               alt="id"
               width={350}
             />
@@ -247,7 +247,7 @@ export const What = () => {
            
             className="md:hidden block"
               style={{ borderRadius: 10 }}
-              src={videoResp.src}
+              src={loveResp.src}
               alt="id"
               width={350}
             />
