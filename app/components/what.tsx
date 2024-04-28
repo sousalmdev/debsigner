@@ -1,19 +1,18 @@
 "use client";
-import oldPh from "@/app/assets/images/Frame 13.svg";
+import oldPh from "@/app/assets/images/oldph.svg";
 import love from "@/app/assets/images/LVOS.svg";
-import brochure from "@/app/assets/images/Frame 16.svg";
-import video from "@/app/assets/images/Frame 19.svg";
+import brochure from "@/app/assets/images/Frame 23.svg";
+import video from "@/app/assets/images/Frame 24.svg";
 import oldPhResp from "@/app/assets/images/Frame 15 resp.svg";
 import loveResp from "@/app/assets/images/Frame 16 resp.svg";
 import brochureResp from "@/app/assets/images/Frame 21 resp.svg";
 import videoResp from "@/app/assets/images/Frame 20 resp.svg";
-
+import Image from "next/image";
 import {
   Card,
   CardHeader,
   CardBody,
   CardFooter,
-  Image,
   Icon,
   Flex,
 } from "@chakra-ui/react";
@@ -76,6 +75,10 @@ export const What = () => {
                 trazendo-as de volta à vida.
               </p>
               <Image
+              height={400}
+               
+           
+             priority={true}
               className="hidden md:block"
                 style={{ borderRadius: 10 }}
                 src={oldPh.src}
@@ -84,6 +87,10 @@ export const What = () => {
               
               />
                 <Image
+                height={400}
+                 
+          
+             priority={true}  
               className="block md:hidden" 
                 style={{ borderRadius: 10 }}
                 src={oldPhResp.src}
@@ -122,6 +129,9 @@ export const What = () => {
               personalidade e os valores de uma pessoa ou empresa.
             </p>
             <Image
+            height={400}
+             
+           priority={true}
             className="hidden md:block"
               style={{ borderRadius: 10 }}
               src={love.src}
@@ -129,6 +139,9 @@ export const What = () => {
               width={350}
             />
              <Image
+             height={400}
+               
+            priority={true}
             className="block md:hidden"
               style={{ borderRadius: 10 }}
               src={loveResp.src}
@@ -166,6 +179,9 @@ export const What = () => {
               mas também contam a história da sua marca.
             </p>
             <Image
+            height={400}
+              
+            priority={true}
             className="hidden md:block"
               style={{ borderRadius: 10 }}
               src={brochure.src}
@@ -173,6 +189,10 @@ export const What = () => {
               width={350}
             />
              <Image
+             height={400}
+               
+            priority={true}
+            
             className="block md:hidden"
               style={{ borderRadius: 10 }}
               src={brochureResp.src}
@@ -210,6 +230,10 @@ export const What = () => {
               apenas atendam, mas superem suas expectativas.
             </p>
             <Image
+            height={400}
+              
+            priority={true}
+           
             className="hidden md:block"
               style={{ borderRadius: 10 }}
               src={video.src}
@@ -217,6 +241,10 @@ export const What = () => {
               width={350}
             />
             <Image
+            height={400}
+             
+            priority={true}
+           
             className="md:hidden block"
               style={{ borderRadius: 10 }}
               src={videoResp.src}

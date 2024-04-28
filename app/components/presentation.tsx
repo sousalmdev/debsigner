@@ -4,16 +4,20 @@ import Image from "next/image";
 import { rale } from "../assets/fonts/fonts";
 import mockups from "@/app/assets/images/Frame 22.svg";
 import { motion } from "framer-motion";
+import { Skeleton } from "@chakra-ui/react";
+
 export const Presentation = () => {
   return (
-     <motion.div
-     initial={{ opacity: 0, y: 50 }}
-     transition={{ duration: 0.5 }}
+   
+   
+      <section className="bg-white sm:min-h-screen flex sm:items-center justify-center  w-full">
+        <motion.div
+     animate={{ opacity: 0, y: 50 }}
+    initial={false}
+    transition={{duration:0.5}}
     whileInView={{ opacity: 1, y: 0 }}
-      
-    >
-      <section className="bg-white sm:min-h-screen py-24 flex sm:items-center justify-center  w-full">
-      
+    className="flex items-center justify-center"
+     >  
     <div className=" w-11/12  sm:gap-12 xl:flex-row flex-col-reverse flex items-center justify-start sm:justify-around">
            <div className="flex-col">
             <h1
@@ -35,12 +39,15 @@ export const Presentation = () => {
 <Image
             src={mockups}
             alt="mockups"
-            className="animate-smooth sm:mt-0 mt-5"
+            className="sm:mt-0 mt-5"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            width={750}
+            width={700}
+            quality={100}
+            priority={true}
           />
 
-        </div>  
-      </section></motion.div>
+        </div> 
+         </motion.div>
+      </section>
   ); 
 };
