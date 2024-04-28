@@ -16,7 +16,7 @@ export const Presentation = () => {
     initial={false}
     transition={{duration:0.5}}
     whileInView={{ opacity: 1, y: 0 }}
-    className="flex items-center justify-center"
+    className="flex items-center justify-around"
      >  
     <div className=" w-11/12  sm:gap-12 xl:flex-row flex-col-reverse flex items-center justify-start sm:justify-around">
            <div className="flex-col">
