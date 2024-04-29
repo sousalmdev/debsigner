@@ -10,7 +10,7 @@ export const Presentation = () => {
   return (
    
    
-      <section className="bg-white min-h-screen flex sm:items-center justify-center  w-full">
+      <section className="mt-5 bg-white min-h-screen flex sm:items-center justify-center  w-full">
         <motion.div
      animate={{ opacity: 0, y: 50 }}
     initial={false}

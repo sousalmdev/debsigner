@@ -6,6 +6,7 @@ import { Presentation } from "./components/presentation";
 import { What } from "./components/what";
 import { Skills } from "./components/skills";
 import { motion } from "framer-motion";
+import { Contact } from "./components/contact";
 
 
 export default function Home() {
@@ -36,9 +37,9 @@ export default function Home() {
                 Mesmice <span className="text-debpink font-black">NÃO</span>{" "}
                 aparecerá por aqui. Inovação é o propósito.
                 <br />
-                <br className="hidden sm:block" />{" "}
-                <span className="font-black text-debpink">
-                  Estejam avisados.
+                <br className="md:hidden " />{" "}
+                <span className="md:mt-0 mt-5 font-black text-debpink">
+                  Plágio, uso indevido de informações e usurpação de identidade visual são infrações, não me solicite para isso.
                 </span>
               </h2>
             </div>
@@ -46,7 +47,7 @@ export default function Home() {
 
             <Image
               src={badLogo}
-              className="xl:mt-0 mt-5 md:animate-none animate-pulse"
+              className="md:mt-0 mt-12 md:animate-none animate-pulse"
               alt="bad"
               width={400}
               sizes="30%:200px"
@@ -69,7 +70,10 @@ export default function Home() {
      transition={{ duration: 1 }}
     whileInView={{ opacity: 1, y: 0 }}
     ><Who /></motion.div>
-
+ <motion.div initial={{ opacity: 0, y: 50 }}
+     transition={{ duration: 1 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    ><Contact/></motion.div>
       <footer className="text-center my-16"></footer>
     </div>
   );

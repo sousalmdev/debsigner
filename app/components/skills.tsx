@@ -25,12 +25,12 @@ export const Skills = () => {
       id="skills"
       className="w-full px-7 py-24 flex flex-col items-center justify-center"
     >
-      <h1
-        className={` text-debpink text-center mb-4 md:md:text-6xl font-black text-center text-xl`}
+     <h1
+        className={` text-center mb-10 text-black font-black md:text-6xl text-3xl`}
       >
         Minhas Melhores Ferramentas
       </h1>
-     <br /> <p className="text-center font-semibold text-debpink md:text-2xl text-sm md:w-11/12 w-full self-center"></p>
+     <br /> 
       <p
         className="md:text-left text-center md:w-2/5 md:text-2xl text-sm 
        text-black"

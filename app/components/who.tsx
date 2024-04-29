@@ -4,15 +4,21 @@ import Image from "next/image";
 
 export const Who = () => {
   return (
-    <div className="">
+    <div className="flex flex-col items-center">
       <h1
         className={` text-center mb-4 text-black font-black md:text-6xl text-3xl`}
       >
         Quem sou?
       </h1>
+      <p
+        className="md:text-left text-center md:hidden block md:w-2/5 md:text-2xl text-sm 
+       text-gray-500 w-11/12  p-4"
+      >
+        Agora, além de conhecerem a marca Debsigner, vocês irão conhecer a pessoa por trás da marca, juro que sou legal :)
+      </p>
       <div
-        id="who"
-        className=" md:flex-row flex-col-reverse flex items-center justify-around py-10 "
+        id="about"
+        className=" md:flex-row flex-col-reverse flex items-center justify-around  "
       >
 
           <p className="md:text-3xl text-base md:w-2/5 w-11/12 text-black">

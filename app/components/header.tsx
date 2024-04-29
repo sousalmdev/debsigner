@@ -31,7 +31,7 @@ const Header = () => {
           <li className='px-2'><Link className=' font-bold md:text-lg text-smcd' href="#do">Trabalhos</Link></li>
           <li className='px-2'><Link className=' font-bold md:text-lg text-smcd' href="#skills">Habilidades</Link></li>
           <li className='px-2'><Link className=' font-bold md:text-lg text-smcd' href="#about">Sobre</Link></li>
-          <li className=' rounded-md px-5'><Link className=' font-bold md:text-lg text-smcd bg-debpink py-2 px-4 text-white rounded-md flex items-center' href="#wa-me">Contato  <BiChat className='ml-1 text-base text-white'/></Link></li>
+          <li className=' rounded-md px-5'><Link className=' font-bold md:text-lg text-smcd bg-debpink py-2 px-4 text-white rounded-md flex items-center' href="#contact">Contato  <BiChat className='ml-1 text-base text-white'/></Link></li>
         </ul>
       </nav>
       <div className="md:hidden block mr-2 bg-white border-1 border-debpink/30 p-1 rounded-md"><Menu>
