@@ -33,7 +33,7 @@ export const Skills = () => {
      <br /> 
       <p
         className="md:text-left text-center md:w-2/5 md:text-2xl text-base 
-       text-black"
+       text-gray-500"
       >
         Tenho um arsenal enorme de tecnologias e aplicativos para melhor
         satisfazer a necessidade de quem é cliente DebSigner. Confira abaixo
