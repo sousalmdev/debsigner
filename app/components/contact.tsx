@@ -13,7 +13,7 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen w-full bg-gradient-to-b from-gray-950 to-gray-700 py-12 my-24 flex flex-col items-center justify-center"
+      className="min-h-screen w-full bg-gradient-to-b from-gray-950 to-gray-700 py-12 flex flex-col items-center justify-center"
     >
       <h1
         className={`md:text-left text-center mb-10 text-debpink font-black md:text-6xl text-3xl`}
@@ -21,11 +21,12 @@ export const Contact = () => {
         Ei, fala comigo!
       </h1>
       <p
-        className=" md:text-left text-center w-11/12 md:w-2/5 md:text-4xl text-base 
+        className="p-5 xl:text-left text-center w-11/12 xl:w-2/5 sm:text-4xl text-xl 
        text-white"
       >
         Achou que ia só ver o que sei fazer para melhor atender você?{" "}
-        <span className="text-xl  md:text-5xl font-black text-debpink">
+        <br className="md:hidden block" />
+        <span className="text-xl  sm:text-5xl font-black text-debpink">
           QUE NADA!
           <br />
           <br /> Aqui estão alguns veículos de contato para nos falarmos. Você
@@ -35,7 +36,7 @@ export const Contact = () => {
       <Flex
         marginBlock={20}
         padding={{ base: 5, md: 0 }}
-        direction={{ base: "column", md: "row" }}
+        direction={{ base: "column", xl: "row" }}
         gap={10}
       >
        <motion.div
@@ -44,7 +45,7 @@ export const Contact = () => {
           transition={{ duration: 1 }}
           whileInView={{ opacity: 1, y: 0 }}
         >
-        <Card className="border-8 border-debpink text-center bg-white">
+        <Card className="xl:w-auto w-11/12 border-8 border-debpink text-center bg-white">
           <CardHeader className="bg-debpink text-white rounded-md">
           <h1
              
@@ -55,7 +56,7 @@ export const Contact = () => {
             </h1>
           </CardHeader>
           <CardBody>
-            <Text className="font-black text-debpink">Benefícios:</Text>
+            <Text className="text-2xl font-black text-debpink mb-2">Benefícios:</Text>
             <ul className="text-left list-normal">
               <li>- Resposta quase imediata</li>
               <li>- Conversa mais longa</li>
@@ -79,7 +80,7 @@ export const Contact = () => {
           initial={{ opacity: 0, y: 50 }}
           transition={{ duration: 1,delay:0.5 }}
           whileInView={{ opacity: 1, y: 0 }}
-        > <Card className="border-6 border-debpink bg-white text-center">
+        > <Card className="xl:w-auto w-11/12 border-6 border-debpink bg-white text-center">
           <CardHeader className="bg-debpink text-white rounded-md">
             <h1
              
@@ -90,7 +91,7 @@ export const Contact = () => {
             </h1>
           </CardHeader>
           <CardBody>
-            <Text className="font-black text-debpink">Benefícios:</Text>
+          <Text className="text-2xl font-black text-debpink mb-2">Benefícios:</Text>
             <ul className="text-left flex flex-col align-center justify-center">
               <li>- Comunicação 100% Profissional</li>
               <li>- Tabelas de precificação</li>

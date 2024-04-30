@@ -23,10 +23,10 @@ const Header = () => {
     <header className={`${rale.className} border-b border-black/20 z-50 shadow  w-full fixed top-0 py-1 left-0 flex items-center text-debpink bg-white justify-center `}>
       <nav className=' px-1 w-11/12 flex items-center justify-between'>
         <div>
-          <Link href="#"><Image quality={100} priority={true} src={logo} width={300} className='sm:block hidden' alt='logo' />
-          <Image quality={100} priority={true} src={secLogo} width={200} alt='logo2' className='sm:hidden block' /></Link>
+          <Link href="#"><Image quality={100} priority={true} src={logo} width={300} className='xl:block hidden' alt='logo' />
+          <Image quality={100} priority={true} src={secLogo} width={300} alt='logo2' className='xl:hidden md:block' /></Link>
         </div>
-        <ul className='xl:flex items-center sm:flex hidden divide-x'>
+        <ul className='xl:flex items-center md:flex hidden sm:hidden divide-x'>
           <li className='px-2'><Link className=' font-bold md:text-lg text-smcd' href="">Home</Link></li>
           <li className='px-2'><Link className=' font-bold md:text-lg text-smcd' href="#do">Trabalhos</Link></li>
           <li className='px-2'><Link className=' font-bold md:text-lg text-smcd' href="#skills">Habilidades</Link></li>
@@ -35,7 +35,7 @@ const Header = () => {
         </ul>
       </nav>
       <div className="md:hidden block mr-2 bg-white border-1 border-debpink/30 p-1 rounded-md"><Menu>
-  <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
+  <MenuButton as={Button} variant={'ghost'} color={'debpink'} border={'1px solid #FF005C'} bg={'white'} rightIcon={<ChevronDownIcon />}>
     Navegue
   </MenuButton>
   <MenuList className='divide-y bg-white text-debpink shadow-md  gap-2 text-center rounded-md'>

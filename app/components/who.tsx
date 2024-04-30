@@ -11,16 +11,16 @@ export const Who = () => {
         Quem sou?
       </h1>
       <p
-        className="md:text-left text-center md:hidden block md:w-2/5 md:text-2xl text-base text-gray-500 w-11/12  p-4"
+        className="xl:text-left text-center xl:hidden block xl:w-2/5 sm:text-2xl text-base text-gray-500 w-11/12  p-4"
       >
         Agora, além de conhecerem a marca Debsigner, vocês irão conhecer a pessoa por trás da marca, juro que sou legal :)
       </p>
       <div
         id="about"
-        className=" md:flex-row flex-col-reverse flex items-center justify-around  "
+        className=" xl:flex-row flex-col-reverse flex items-center justify-around  "
       >
 
-          <p className="md:text-3xl text-base md:w-2/5 w-11/12 text-black">
+          <p className="xl:text-left text-center sm:text-3xl text-base xl:w-2/5 w-11/12 xl:mt-0 mt-5 text-black">
             Olá,{" "}
             <span className="text-debpink font-black">
               eu sou Débora Viana Rodrigues
