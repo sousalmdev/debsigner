@@ -30,7 +30,7 @@ export const What = () => {
     <div className="flex flex-col items-center justify-center">
     <div
       id="do"
-      className=" min-h-screen w-11/12 p-5 flex-col flex items-center justify-center my-20"
+      className=" min-h-screen w-11/12 flex-col flex items-center justify-center my-20"
     >
       <h1
         className={` text-center mb-10 text-black font-black sm:text-6xl text-3xl`}
@@ -217,7 +217,7 @@ export const What = () => {
           transition={{ duration: 0.5 }}
           whileInView={{ opacity: 1, y: 0 }}
         >
-          <Card background={'black'} className="rounded-md bg-center py-10 px-5 md:px-10 2xl:w-9/12 w-full bg-black text-debpink mb-8 xl:flex-row flex-col-reverse  flex items-center justify-center">
+          <Card background={'black'} className="rounded-md bg-center py-10 px-2 md:px-10 2xl:w-9/12 w-full bg-black text-debpink mb-8 xl:flex-row flex-col-reverse  flex items-center justify-center">
             <div className="bg-white mb-2 rounded-full p-2 flex items-center justify-center">
               <BiSolidFilm className="md:text-6xl text-4xl text-debpink" />
             </div>
