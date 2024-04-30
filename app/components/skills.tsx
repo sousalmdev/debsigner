@@ -25,12 +25,12 @@ export const Skills = () => {
       id="skills"
       className="min-h-screen bg-white w-full py-20 px-7  flex flex-col items-center justify-center"
     >
-     <h1
+      <h1
         className={` text-center mb-10 text-black font-black sm:text-6xl text-3xl`}
       >
         Minhas Melhores Ferramentas
       </h1>
-     <br /> 
+      <br />
       <p
         className=" text-center xl:w-2/5 sm:text-2xl text-base 
        text-gray-500"
@@ -41,7 +41,7 @@ export const Skills = () => {
       </p>
       <div className="md:w-11/12 w-full flex p-5 h-1/2 items-center justify-center">
         {" "}
-      <Carousel className="xl:w-1/2 w-11/12 flex items-center  self-center py-10 md:py-20">
+        <Carousel className="xl:w-1/2 w-11/12 flex items-center  self-center py-10 md:py-20">
           <CarouselContent className="  m-0 bg-black">
             <CarouselItem className="border-debpink border-8 flex flex-col w-full items-center justify-center bg-black p-5">
               <FiFigma className="sm:text-8xl text-7xl  text-debpink" />
@@ -51,7 +51,8 @@ export const Skills = () => {
               >
                 Figma
               </h1>
-             <br /> <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
+              <br />{" "}
+              <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
                 Uma ferramenta de design colaborativa baseada na web, amplamente
                 usada para criar interfaces de usuário, protótipos e designs
                 interativos. É popular entre designers e equipes de
@@ -67,7 +68,8 @@ export const Skills = () => {
               >
                 Adobe After Effects
               </h1>
-             <br /> <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
+              <br />{" "}
+              <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
                 Um software de pós-produção usado para criar efeitos visuais,
                 animações e composições em vídeos e filmes. É amplamente
                 utilizado na indústria cinematográfica e de produção de vídeo.
@@ -82,7 +84,8 @@ export const Skills = () => {
               >
                 Adobe Photoshop
               </h1>
-             <br /> <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
+              <br />{" "}
+              <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
                 O software de edição de imagens mais conhecido e usado no mundo.
                 Ele permite a manipulação de fotos, criação de gráficos e
                 designs, e é uma ferramenta essencial para designers e
@@ -98,7 +101,8 @@ export const Skills = () => {
               >
                 Adobe Illustrator
               </h1>
-             <br /> <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
+              <br />{" "}
+              <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
                 Um programa de design vetorial usado para criar ilustrações,
                 logotipos, ícones e gráficos escaláveis. É popular entre
                 designers gráficos e artistas digitais.
@@ -113,7 +117,8 @@ export const Skills = () => {
               >
                 Adobe InDesign
               </h1>
-             <br /> <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
+              <br />{" "}
+              <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
                 Uma ferramenta de layout e design usada para criar layouts de
                 impressão, como revistas, livros e folhetos. É especialmente
                 útil para designers editoriais e profissionais de publicação.
@@ -128,7 +133,8 @@ export const Skills = () => {
               >
                 Adobe Premiere
               </h1>
-             <br /> <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
+              <br />{" "}
+              <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
                 {" "}
                 Um software de edição de vídeo usado para criar filmes, vídeos
                 promocionais e conteúdo para a web. É amplamente utilizado por
@@ -144,7 +150,8 @@ export const Skills = () => {
               >
                 Canva
               </h1>
-             <br /> <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
+              <br />{" "}
+              <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
                 Uma plataforma de design gráfico online que permite criar
                 facilmente gráficos, cartazes, mídia social e outros materiais
                 visuais. É popular entre empreendedores, blogueiros e pequenas
@@ -160,7 +167,8 @@ export const Skills = () => {
               >
                 Adobe Lightroom
               </h1>
-             <br /> <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
+              <br />{" "}
+              <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
                 Um aplicativo de edição de fotos usado por fotógrafos para
                 ajustar cores, exposição e outros aspectos das imagens. É
                 especialmente útil para organizar e aprimorar fotos em lotes.
@@ -172,7 +180,6 @@ export const Skills = () => {
           <CarouselPrevious />
         </Carousel>
       </div>
-      
     </section>
   );
 };

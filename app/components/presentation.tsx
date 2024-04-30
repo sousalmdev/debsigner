@@ -8,18 +8,16 @@ import { Skeleton } from "@chakra-ui/react";
 
 export const Presentation = () => {
   return (
-   
-   
-      <section className="py-20 bg-white min-h-screen flex sm:items-center justify-center  w-full">
-        <motion.div
-     animate={{ opacity: 0, y: 50 }}
-    initial={false}
-    transition={{duration:1}}
-    whileInView={{ opacity: 1, y: 0 }}
-    className="flex items-center justify-around md:gap-0 gap-20"
-     >  
-    <div className=" w-11/12 md:gap-0 gap-12 xl:flex-row flex-col-reverse flex items-center justify-start sm:justify-around">
-           <div className="flex-col">
+    <section className="py-20 bg-white min-h-screen flex sm:items-center justify-center  w-full">
+      <motion.div
+        animate={{ opacity: 0, y: 50 }}
+        initial={false}
+        transition={{ duration: 1 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        className="flex items-center justify-around md:gap-0 gap-20"
+      >
+        <div className=" w-11/12 md:gap-0 gap-12 xl:flex-row flex-col-reverse flex items-center justify-start sm:justify-around">
+          <div className="flex-col">
             <h1
               className={`${rale.className} w-full xl:text-left text-center text-black text-2xl sm:text-5xl md:text-5xl xl:text-7xl font-light`}
             >
@@ -35,8 +33,8 @@ export const Presentation = () => {
               precisar!{" "}
             </p>
           </div>
-       
-<Image
+
+          <Image
             src={mockups}
             alt="mockups"
             className="sm:mt-0 mt-5"
@@ -44,9 +42,8 @@ export const Presentation = () => {
             width={700}
             priority={true}
           />
-
-        </div> 
-         </motion.div>
-      </section>
-  ); 
+        </div>
+      </motion.div>
+    </section>
+  );
 };

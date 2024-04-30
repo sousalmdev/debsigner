@@ -36,9 +36,6 @@ const config = {
         "debpink":"#FF005C"
       }
       ,
-      backgroundImage:{
-        "brand":"url(assets/images/Component 14.svg)"
-      }
     },
   },
   plugins: [require("tailwindcss-animate")],
