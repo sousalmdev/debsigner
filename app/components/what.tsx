@@ -88,7 +88,7 @@ export const What = () => {
                 </p>
                 <Image
                   height={400}
-                  priority={true}
+                 
                   className="hidden xl:block"
                   style={{ borderRadius: 10 }}
                   src={oldPh.src}
@@ -97,7 +97,7 @@ export const What = () => {
                 />
                 <Image
                   height={400}
-                  priority={true}
+                 
                   className="block xl:hidden"
                   style={{ borderRadius: 10 }}
                   src={oldPhResp.src}
@@ -139,7 +139,7 @@ export const What = () => {
               </p>
               <Image
                 height={400}
-                priority={true}
+               
                 className="hidden xl:block"
                 style={{ borderRadius: 10 }}
                 src={love.src}
@@ -148,7 +148,7 @@ export const What = () => {
               />
               <Image
                 height={400}
-                priority={true}
+               
                 className="block xl:hidden"
                 style={{ borderRadius: 10 }}
                 src={videoResp.src}
@@ -192,7 +192,7 @@ export const What = () => {
               </p>
               <Image
                 height={400}
-                priority={true}
+               
                 className="hidden xl:block"
                 style={{ borderRadius: 10 }}
                 src={brochure.src}
@@ -201,7 +201,7 @@ export const What = () => {
               />
               <Image
                 height={400}
-                priority={true}
+               
                 className="block xl:hidden"
                 style={{ borderRadius: 10 }}
                 src={brochureResp.src}
@@ -242,7 +242,7 @@ export const What = () => {
               </p>
               <Image
                 height={400}
-                priority={true}
+               
                 className="hidden xl:block"
                 style={{ borderRadius: 10 }}
                 src={video.src}
@@ -251,7 +251,7 @@ export const What = () => {
               />
               <Image
                 height={400}
-                priority={true}
+               
                 className="xl:hidden block"
                 style={{ borderRadius: 10 }}
                 src={loveResp.src}
