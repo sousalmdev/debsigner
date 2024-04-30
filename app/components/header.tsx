@@ -33,7 +33,6 @@ const Header = () => {
               alt="logo"
             />
             <Image
-              priority={true}
               src={secLogo}
               width={300}
               alt="logo2"
