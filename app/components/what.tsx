@@ -29,7 +29,7 @@ export const What = () => {
   return (
     <div
       id="do"
-      className=" w-full p-5 flex-col flex items-center justify-center my-20"
+      className=" min-h-screen w-full p-5 flex-col flex items-center justify-center my-20"
     >
       <h1
         className={` text-center mb-10 text-black font-black md:text-6xl text-3xl`}

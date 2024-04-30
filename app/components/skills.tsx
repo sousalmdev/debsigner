@@ -23,7 +23,7 @@ export const Skills = () => {
   return (
     <section
       id="skills"
-      className="w-full px-7 py-24 flex flex-col items-center justify-center"
+      className="min-h-screen w-full py-20 px-7  flex flex-col items-center justify-center"
     >
      <h1
         className={` text-center mb-10 text-black font-black md:text-6xl text-3xl`}

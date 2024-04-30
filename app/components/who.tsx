@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Who = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="min-h-screen py-20 flex flex-col items-center">
       <h1
         className={` text-center mb-4 text-black font-black md:text-6xl text-3xl`}
       >

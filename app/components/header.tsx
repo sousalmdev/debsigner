@@ -42,7 +42,7 @@ const Header = () => {
     <MenuItem className='p-2' as={Link} href={'#'}>Home</MenuItem>
     <MenuItem className='p-2' as={Link}  href={'#do'}>Trabalhos</MenuItem>
     <MenuItem className='p-2' as={Link}  href={'#skills'}>Ferramentas</MenuItem>
-    <MenuItem className='p-2' as={Link}  href={'#who'}>Quem Sou</MenuItem>
+    <MenuItem className='p-2' as={Link}  href={'#about'}>Quem Sou</MenuItem>
     <MenuItem className='p-2' as={Link}  href={'#contact'}>Contato</MenuItem>
   </MenuList>
 </Menu></div>
