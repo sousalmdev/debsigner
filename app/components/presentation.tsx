@@ -42,7 +42,6 @@ export const Presentation = () => {
             className="sm:mt-0 mt-5"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             width={700}
-            quality={100}
             priority={true}
           />
 

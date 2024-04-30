@@ -33,7 +33,6 @@ export const Who = () => {
           </p>
          
           <Image
-            quality={100}
             priority={true}
             src={debinha.src}
             alt="bibinho"
