@@ -37,8 +37,7 @@ export const What = () => {
         O que faço?
       </h1>
       <p
-        className="mb-10 text-center md:w-2/5 md:text-2xl text-sm 
-       text-gray-500"
+        className="mb-10 text-center md:w-2/5 md:text-2xl text-base text-gray-500"
       >
         Antes de mais nada, preciso adiantar a vocês o que posso providenciar
         aos meus clientes, e espero que você se identifique com alguma
