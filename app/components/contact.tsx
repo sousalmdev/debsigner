@@ -16,12 +16,12 @@ export const Contact = () => {
       className="min-h-screen w-full bg-gradient-to-b from-gray-950 to-gray-700 py-12 flex flex-col items-center justify-center"
     >
       <h1
-        className={`md:text-left text-center mb-10 text-debpink font-black md:text-6xl text-3xl`}
+        className={` text-center mb-10 text-debpink font-black md:text-6xl text-3xl`}
       >
         Ei, fala comigo!
       </h1>
       <p
-        className="p-5 xl:text-left text-center w-11/12 xl:w-2/5 sm:text-4xl text-xl 
+        className="p-5 2xl:text-left text-center w-11/12 xl:w-2/5 sm:text-4xl text-xl 
        text-white"
       >
         Achou que ia só ver o que sei fazer para melhor atender você?{" "}
