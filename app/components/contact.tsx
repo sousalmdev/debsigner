@@ -21,7 +21,7 @@ export const Contact = () => {
         Ei, fala comigo!
       </h1>
       <p
-        className=" md:text-left text-center w-11/12 md:w-2/5 md:text-4xl text-sm 
+        className=" md:text-left text-center w-11/12 md:w-2/5 md:text-4xl text-base 
        text-white"
       >
         Achou que ia só ver o que sei fazer para melhor atender você?{" "}
@@ -112,7 +112,7 @@ export const Contact = () => {
       <motion.div
           className="flex justify-center"
           initial={{ opacity: 0, y: 50 }}
-          transition={{delay:1,duration:1 }}
+          transition={{delay:0.8,duration:1 }}
           whileInView={{ opacity: 1, y: 0 }}
         ><Card className="border-6 border-debpink bg-white">
           <CardHeader className="bg-debpink text-white rounded-md">
