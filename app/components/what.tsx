@@ -4,9 +4,9 @@ import love from "@/app/assets/images/LVOS.svg";
 import brochure from "@/app/assets/images/Frame 23.svg";
 import video from "@/app/assets/images/Frame 24.svg";
 import oldPhResp from "@/app/assets/images/Frame 15 resp.svg";
-import loveResp from "@/app/assets/images/Frame 16 resp.svg";
+import loveResp from "@/app/assets/images/Frame 20 resp.svg";
 import brochureResp from "@/app/assets/images/Frame 21 resp.svg";
-import videoResp from "@/app/assets/images/Frame 20 resp.svg";
+import videoResp from "@/app/assets/images/Frame 16 resp.svg";
 import Image from "next/image";
 import {
   Card,

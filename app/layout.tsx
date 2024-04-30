@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { rale } from "./assets/fonts/fonts";
 import "./globals.css";
 import Header from "./components/header";
@@ -15,8 +15,12 @@ export const metadata: Metadata = {
   apple:logofav.src
 }
 
+
 }
 ;
+export const viewport: Viewport = {
+  themeColor:'#FF005C'
+}
 
 export default function RootLayout({
   children,
