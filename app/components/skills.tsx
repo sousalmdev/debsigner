@@ -32,7 +32,7 @@ export const Skills = () => {
       </h1>
      <br /> 
       <p
-        className="md:text-left text-center md:w-2/5 md:text-2xl text-sm 
+        className="md:text-left text-center md:w-2/5 md:text-2xl text-base 
        text-black"
       >
         Tenho um arsenal enorme de tecnologias e aplicativos para melhor
