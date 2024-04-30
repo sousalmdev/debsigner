@@ -28,7 +28,7 @@ export const Presentation = () => {
                 tudo em um só lugar.
               </span>
             </h1>
-            <p className="md:text-3xl text-gray-600 text-base mt-5 md:w-4/5 w-full md:text-left font-light text-center">
+            <p className="md:text-3xl text-gray-500 text-base mt-5 md:w-4/5 w-full md:text-left font-light text-center">
               Mais que criar simples grupos de cores e figuras, somos
               direcionados a trazer emoções em formato de arte, detalhe por
               detalhe, identidade e compromisso com o que sua marca mais
