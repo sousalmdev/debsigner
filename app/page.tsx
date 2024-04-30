@@ -50,7 +50,6 @@ export default function Home() {
               className="md:mt-0 mt-12 md:animate-none animate-pulse"
               alt="bad"
               width={400}
-              sizes="30%:200px"
             />
           </div>
         </div>
