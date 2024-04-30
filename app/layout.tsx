@@ -3,18 +3,20 @@ import { rale } from "./assets/fonts/fonts";
 import "./globals.css";
 import Header from "./components/header";
 import { ChakraProvider } from "@chakra-ui/react";
-import logofav from '@/app/assets/favicon.svg'
+import logofav from '@/app/assets/favicon.ico'
 import Head from "next/head";
-import { url } from "inspector";
+
 export const metadata: Metadata = {
   title: "Debsigner",
   description: "Materialize sua identidade!",
-  icons:{
-    apple:logofav,
-    shortcut:logofav,
-    icon:logofav
-  }
-};
+   icons:{
+    shortcut:logofav.src,
+    icon:logofav.src,
+  apple:logofav.src
+}
+
+}
+;
 
 export default function RootLayout({
   children,
