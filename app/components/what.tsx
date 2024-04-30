@@ -1,8 +1,8 @@
 "use client";
 import oldPh from "@/app/assets/images/oldph.svg";
 import love from "@/app/assets/images/LVOS.svg";
-import brochure from "@/app/assets/images/Frame 23.svg";
-import video from "@/app/assets/images/Frame 24.svg";
+import brochure from "@/app/assets/images/Frame 24.svg";
+import video from "@/app/assets/images/Frame 23.svg";
 import oldPhResp from "@/app/assets/images/Frame 15 resp.svg";
 import loveResp from "@/app/assets/images/Frame 20 resp.svg";
 import brochureResp from "@/app/assets/images/Frame 21 resp.svg";

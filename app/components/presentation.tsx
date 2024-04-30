@@ -38,8 +38,8 @@ export const Presentation = () => {
             src={mockups}
             alt="mockups"
             className="sm:mt-0 mt-5"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            width={700}
+            width={600}
+            height={100}
             priority={true}
           />
         </div>
