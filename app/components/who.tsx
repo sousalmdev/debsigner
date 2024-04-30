@@ -11,8 +11,7 @@ export const Who = () => {
         Quem sou?
       </h1>
       <p
-        className="md:text-left text-center md:hidden block md:w-2/5 md:text-2xl text-sm 
-       text-gray-500 w-11/12  p-4"
+        className="md:text-left text-center md:hidden block md:w-2/5 md:text-2xl text-base text-gray-500 w-11/12  p-4"
       >
         Agora, além de conhecerem a marca Debsigner, vocês irão conhecer a pessoa por trás da marca, juro que sou legal :)
       </p>
