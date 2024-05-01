@@ -32,7 +32,7 @@ export default function Home() {
                   Mesmice <span className="text-debpink font-black">NÃO</span>{" "}
                   aparecerá por aqui. Inovação é o propósito.
                   <br />
-                  <br />{" "}
+                  <br />
                   <span className="md:mt-0 mt-5 font-black text-debpink">
                     Plágio, uso indevido de informações e usurpação de
                     identidade visual são infrações, não me solicite para isso.
@@ -45,7 +45,6 @@ export default function Home() {
                 className="md:mt-0 mt-12 md:animate-none animate-pulse"
                 alt="bad"
                 width={400}
-                sizes="max-width(512px):200px"
               />
             </div>
           </div>
