@@ -35,13 +35,7 @@ export default function Home() {
       >
         <Who />
       </motion.div>
-      <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        transition={{ duration: 1 }}
-        whileInView={{ opacity: 1, y: 0 }}
-      >
         <Contact />
-      </motion.div>
     </div>
   );
 }
