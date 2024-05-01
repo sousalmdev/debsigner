@@ -42,7 +42,6 @@ export default function Home() {
       >
         <Contact />
       </motion.div>
-      <footer className="text-center bg-debpink h-20 w-full"></footer>
     </div>
   );
 }
