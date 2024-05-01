@@ -18,7 +18,7 @@ export const Presentation = () => {
         <div className=" w-11/12 md:gap-0 gap-12 xl:flex-row flex-col-reverse flex items-center justify-start sm:justify-around">
           <div className="flex-col">
             <h1
-              className={`${rale.className} w-full xl:text-left text-center text-black text-2xl sm:text-5xl md:text-5xl xl:text-7xl font-light`}
+              className={` w-full xl:text-left text-center text-black text-2xl sm:text-5xl md:text-5xl xl:text-7xl font-light`}
             >
               Essência e criatividade, <br />{" "}
               <span className="font-black text-debpink">
