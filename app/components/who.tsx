@@ -1,5 +1,5 @@
-import { motion } from "framer-motion";
-import debinha from "@/app/assets/images/Group 18.svg";
+
+import debinha from "@/app/assets/images/debinha.png";
 import Image from "next/image";
 
 export const Who = () => {
@@ -33,6 +33,7 @@ export const Who = () => {
           </p>
          
           <Image
+          quality={100}
             src={debinha.src}
             alt="bibinho"
             width={700}

@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import { Who } from "./components/who";
-import badLogo from "@/app/assets/images/Component 13.png";
+import badLogo from "@/app/assets/images/LOGOFEIA.png";
 import { Presentation } from "./components/presentation";
 import { What } from "./components/what";
 import { Skills } from "./components/skills";

@@ -1,12 +1,12 @@
 "use client";
-import oldPh from "@/app/assets/images/oldph.svg";
-import love from "@/app/assets/images/LVOS.svg";
-import brochure from "@/app/assets/images/Frame 24.svg";
-import video from "@/app/assets/images/Frame 23.svg";
-import oldPhResp from "@/app/assets/images/Frame 15 resp.svg";
-import loveResp from "@/app/assets/images/Frame 20 resp.svg";
-import brochureResp from "@/app/assets/images/Frame 21 resp.svg";
-import videoResp from "@/app/assets/images/Frame 16 resp.svg";
+import oldPh from "@/app/assets/images/foto antiga.png";
+import love from "@/app/assets/images/mockups.png";
+import brochure from "@/app/assets/images/Encarte.png";
+import video from "@/app/assets/images/EDICAO.png";
+import oldPhResp from "@/app/assets/images/foto antiga responsiva.png";
+import loveResp from "@/app/assets/images/mockups responsivos.png";
+import brochureResp from "@/app/assets/images/ENCARTE RESPONSIVO.png";
+import videoResp from "@/app/assets/images/EDICAO RESPONSIVA.png";
 import Image from "next/image";
 import {
   Card,
@@ -88,6 +88,7 @@ export const What = () => {
                     danificadas, trazendo-as de volta à vida.
                   </p>
                   <Image
+                  quality={100}
                     height={400}
                     className="hidden xl:block"
                     style={{ borderRadius: 10 }}
@@ -96,6 +97,7 @@ export const What = () => {
                     width={400}
                   />
                   <Image
+                  quality={100}
                     height={400}
                     className="block xl:hidden"
                     style={{ borderRadius: 10 }}
@@ -141,6 +143,7 @@ export const What = () => {
                   empresa.
                 </p>
                 <Image
+                quality={100}
                   height={400}
                   className="hidden xl:block"
                   style={{ borderRadius: 10 }}
@@ -149,10 +152,11 @@ export const What = () => {
                   width={400}
                 />
                 <Image
+                quality={100}
                   height={400}
                   className="block xl:hidden"
                   style={{ borderRadius: 10 }}
-                  src={videoResp.src}
+                  src={loveResp.src}
                   alt="id"
                   width={400}
                 />
@@ -195,6 +199,7 @@ export const What = () => {
                   marca.
                 </p>
                 <Image
+                quality={100}
                   height={400}
                   className="hidden xl:block"
                   style={{ borderRadius: 10 }}
@@ -203,6 +208,7 @@ export const What = () => {
                   width={400}
                 />
                 <Image
+                quality={100}
                   height={400}
                   className="block xl:hidden"
                   style={{ borderRadius: 10 }}
@@ -246,6 +252,7 @@ export const What = () => {
                   não apenas atendam, mas superem suas expectativas.
                 </p>
                 <Image
+                quality={100}
                   height={400}
                   className="hidden xl:block"
                   style={{ borderRadius: 10 }}
@@ -254,10 +261,11 @@ export const What = () => {
                   width={400}
                 />
                 <Image
+                quality={100}
                   height={400}
                   className="xl:hidden block"
                   style={{ borderRadius: 10 }}
-                  src={loveResp.src}
+                  src={videoResp.src}
                   alt="id"
                   width={400}
                 />

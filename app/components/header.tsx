@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { rale } from "../assets/fonts/fonts";
 import Image from "next/image";
-import logo from "@/app/assets/images/Component 8.svg";
-import secLogo from "@/app/assets/images/Component 8 copy.svg";
+import logo from "@/app/assets/images/LOGO GRANDE.png";
+import secLogo from "@/app/assets/images/LOGO PEQUENA.png";
 import { BiChat, BiPhone, BiPhoneCall } from "react-icons/bi";
 import {
   Menu,
@@ -27,14 +27,16 @@ const Header = () => {
         <div>
           <Link href="#">
             <Image
+            quality={100}
               src={logo}
               width={300}
               className="xl:block hidden"
               alt="logo"
             />
             <Image
+            quality={100}
               src={secLogo}
-              width={300}
+              width={30}
               alt="logo2"
               className="xl:hidden md:block"
             />

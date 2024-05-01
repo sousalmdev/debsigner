@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { rale } from "../assets/fonts/fonts";
-import mockups from "@/app/assets/images/Frame 22.svg";
+import mockups from "@/app/assets/images/TELA PRINCIPAL.png";
 import { motion } from "framer-motion";
 import { Skeleton } from "@chakra-ui/react";
 
@@ -41,6 +41,7 @@ export const Presentation = () => {
             width={600}
             height={100}
             priority={true}
+            quality={100}
           />
         </div>
       </motion.div>
