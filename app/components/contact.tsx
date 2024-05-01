@@ -1,11 +1,7 @@
 import { Card, CardBody, CardFooter, CardHeader } from "@chakra-ui/card";
-import { Flex, Button, Text, Center, ButtonGroup } from "@chakra-ui/react";
-import {
-  CursorArrowIcon,
-  InstagramLogoIcon,
-  LinkedInLogoIcon,
-} from "@radix-ui/react-icons";
-import { Oi } from "next/font/google";
+import { Flex, Button, Text, ButtonGroup } from "@chakra-ui/react";
+import { CursorArrowIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
+
 import { BiLogoGmail, BiLogoWhatsapp } from "react-icons/bi";
 import { FiInstagram } from "react-icons/fi";
 import { SiBehance } from "react-icons/si";

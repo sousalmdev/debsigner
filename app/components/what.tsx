@@ -12,8 +12,6 @@ import {
   Card,
   CardHeader,
   CardBody,
-  CardFooter,
-  Icon,
   Flex,
 } from "@chakra-ui/react";
 

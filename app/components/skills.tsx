@@ -1,5 +1,3 @@
-import { FigmaLogoIcon } from "@radix-ui/react-icons";
-import { rale } from "../assets/fonts/fonts";
 
 import {
   Carousel,
@@ -18,7 +16,6 @@ import {
   SiCanva,
 } from "react-icons/si";
 import { DiPhotoshop } from "react-icons/di";
-import { motion } from "framer-motion";
 export const Skills = () => {
   return (
     <section

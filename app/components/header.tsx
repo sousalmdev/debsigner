@@ -5,18 +5,8 @@ import { rale } from "../assets/fonts/fonts";
 import Image from "next/image";
 import logo from "@/app/assets/images/LOGO GRANDE.png";
 import secLogo from "@/app/assets/images/LOGO PEQUENA.png";
-import { BiChat, BiPhone, BiPhoneCall } from "react-icons/bi";
-import {
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuItemOption,
-  MenuGroup,
-  MenuOptionGroup,
-  MenuDivider,
-  Button,
-} from "@chakra-ui/react";
+import { BiChat } from "react-icons/bi";
+import { Menu, MenuButton, MenuList, MenuItem, Button } from "@chakra-ui/react";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
 const Header = () => {
   return (
@@ -27,14 +17,14 @@ const Header = () => {
         <div>
           <Link href="#">
             <Image
-            quality={100}
+              quality={100}
               src={logo}
               width={300}
               className="xl:block hidden"
               alt="logo"
             />
             <Image
-            quality={100}
+              quality={100}
               src={secLogo}
               width={30}
               alt="logo2"
@@ -74,7 +64,7 @@ const Header = () => {
         </ul>
       </nav>
       <div className="md:hidden block mr-2 bg-white border-1 border-debpink/30 p-1 rounded-md">
-        <Menu>
+        <Menu isLazy>
           <MenuButton
             as={Button}
             variant={"ghost"}

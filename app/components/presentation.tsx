@@ -5,7 +5,6 @@ import { rale } from "../assets/fonts/fonts";
 import mainPhoto from "@/app/assets/images/TELA PRINCIPAL.png";
 import { motion } from "framer-motion";
 
-
 export const Presentation = () => {
   return (
     <section className="py-20 bg-white min-h-screen flex sm:items-center justify-center  w-full">
@@ -41,7 +40,6 @@ export const Presentation = () => {
             width={500}
             height={100}
             priority
-            
           />
         </div>
       </motion.div>
