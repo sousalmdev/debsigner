@@ -38,7 +38,7 @@ export const Presentation = () => {
             src={mainPhoto}
             alt="mockups"
             className="sm:mt-0 mt-5"
-            width={600}
+            width={500}
             height={100}
             priority
             
