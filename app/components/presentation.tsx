@@ -40,7 +40,6 @@ export const Presentation = () => {
             width={450}
             height={100}
             priority 
-            quality={100}
           />
         </div>
       </motion.div>
