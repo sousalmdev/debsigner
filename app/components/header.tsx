@@ -17,7 +17,7 @@ const Header = () => {
         <div>
           <Link href="#">
             <Image
-            priority
+            priority={false}
               quality={100}
               src={logo}
               width={300}
@@ -25,6 +25,7 @@ const Header = () => {
               alt="logo"
             />
             <Image
+            priority={false}
               quality={100}
               src={secLogo}
               width={30}
