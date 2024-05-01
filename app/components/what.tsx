@@ -81,7 +81,6 @@ export const What = () => {
                     danificadas, trazendo-as de volta à vida.
                   </p>
                   <Image
-
                     height={400}
                     className="hidden xl:block"
                     style={{ borderRadius: 10 }}
@@ -90,7 +89,6 @@ export const What = () => {
                     width={400}
                   />
                   <Image
-
                     height={400}
                     className="block xl:hidden"
                     style={{ borderRadius: 10 }}
