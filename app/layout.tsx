@@ -4,7 +4,6 @@ import "./globals.css";
 import Header from "./components/header";
 import { ChakraProvider } from "@chakra-ui/react";
 import logofav from "@/app/assets/favicon.ico";
-import Link from "next/link";
 import { Footer } from "./components/footer";
 
 export const metadata: Metadata = {
