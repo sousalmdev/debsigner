@@ -29,6 +29,7 @@ const Header = () => {
               width={30}
               alt="logo2"
               className="xl:hidden md:block"
+              priority
             />
           </Link>
         </div>
