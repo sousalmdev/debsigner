@@ -88,22 +88,22 @@ export const What = () => {
                     danificadas, trazendo-as de volta à vida.
                   </p>
                   <Image
-                  quality={100}
+                  quality={80}
                     height={400}
                     className="hidden xl:block"
                     style={{ borderRadius: 10 }}
                     src={oldPh.src}
                     alt="old photo"
-                    width={400}
+                    width={350}
                   />
                   <Image
-                  quality={100}
+                  quality={80}
                     height={400}
                     className="block xl:hidden"
                     style={{ borderRadius: 10 }}
                     src={oldPhResp.src}
                     alt="old photo"
-                    width={400}
+                    width={350}
                   />
                 </Flex>
               </CardBody>
@@ -143,22 +143,22 @@ export const What = () => {
                   empresa.
                 </p>
                 <Image
-                quality={100}
+                quality={80}
                   height={400}
                   className="hidden xl:block"
                   style={{ borderRadius: 10 }}
                   src={love.src}
                   alt="id"
-                  width={400}
+                  width={350}
                 />
                 <Image
-                quality={100}
+                quality={80}
                   height={400}
                   className="block xl:hidden"
                   style={{ borderRadius: 10 }}
                   src={loveResp.src}
                   alt="id"
-                  width={400}
+                  width={350}
                 />
               </Flex>
             </Card>
@@ -199,22 +199,22 @@ export const What = () => {
                   marca.
                 </p>
                 <Image
-                quality={100}
+                quality={80}
                   height={400}
                   className="hidden xl:block"
                   style={{ borderRadius: 10 }}
                   src={brochure.src}
                   alt="id"
-                  width={400}
+                  width={350}
                 />
                 <Image
-                quality={100}
+                quality={80}
                   height={400}
                   className="block xl:hidden"
                   style={{ borderRadius: 10 }}
                   src={brochureResp.src}
                   alt="id"
-                  width={400}
+                  width={350}
                 />{" "}
               </Flex>
             </Card>
@@ -252,22 +252,22 @@ export const What = () => {
                   não apenas atendam, mas superem suas expectativas.
                 </p>
                 <Image
-                quality={100}
+                quality={80}
                   height={400}
                   className="hidden xl:block"
                   style={{ borderRadius: 10 }}
                   src={video.src}
                   alt="id"
-                  width={400}
+                  width={350}
                 />
                 <Image
-                quality={100}
+                quality={80}
                   height={400}
                   className="xl:hidden block"
                   style={{ borderRadius: 10 }}
                   src={videoResp.src}
                   alt="id"
-                  width={400}
+                  width={350}
                 />
               </Flex>
             </Card>

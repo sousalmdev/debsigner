@@ -28,7 +28,7 @@ const Header = () => {
           <Link href="#">
             <Image
               src={logo}
-              width={300}
+              width={250}
               className="xl:block hidden"
               alt="logo"
             />
