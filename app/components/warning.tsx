@@ -37,7 +37,7 @@ export const Warning = () => {
               className="md:mt-0 mt-12 md:animate-none animate-pulse"
               alt="bad"
               width={350}
-              priority={false}
+              quality={100}
             />
           </div>
         </div>
