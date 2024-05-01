@@ -20,7 +20,7 @@ const Header = () => {
               priority
               quality={100}
               src={logo}
-              width={300}
+              width={250}
               className="xl:block hidden"
               alt="logo"
             />
