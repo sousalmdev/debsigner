@@ -27,14 +27,12 @@ const Header = () => {
         <div>
           <Link href="#">
             <Image
-            quality={100}
               src={logo}
               width={300}
               className="xl:block hidden"
               alt="logo"
             />
             <Image
-            quality={100}
               src={secLogo}
               width={30}
               alt="logo2"

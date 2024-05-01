@@ -2,9 +2,9 @@
 
 import Image from "next/image";
 import { rale } from "../assets/fonts/fonts";
-import mockups from "@/app/assets/images/TELA PRINCIPAL.png";
+import mainPhoto from "@/app/assets/images/TELA PRINCIPAL.png";
 import { motion } from "framer-motion";
-import { Skeleton } from "@chakra-ui/react";
+
 
 export const Presentation = () => {
   return (
@@ -35,13 +35,13 @@ export const Presentation = () => {
           </div>
 
           <Image
-            src={mockups}
+            src={mainPhoto}
             alt="mockups"
             className="sm:mt-0 mt-5"
             width={600}
             height={100}
-            priority={true}
-            quality={100}
+            priority
+            
           />
         </div>
       </motion.div>
