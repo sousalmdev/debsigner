@@ -39,6 +39,8 @@ export const Presentation = () => {
             className="sm:mt-0 mt-5"
             width={450}
             height={100}
+            priority 
+            quality={100}
           />
         </div>
       </motion.div>
