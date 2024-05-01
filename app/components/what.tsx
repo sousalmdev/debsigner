@@ -81,7 +81,7 @@ export const What = () => {
                     danificadas, trazendo-as de volta à vida.
                   </p>
                   <Image
-                  priority={false}
+                  priority
                     height={400}
                     className="hidden xl:block"
                     style={{ borderRadius: 10 }}
@@ -90,7 +90,7 @@ export const What = () => {
                     width={400}
                   />
                   <Image
-                  priority={false}
+                  priority
                     height={400}
                     className="block xl:hidden"
                     style={{ borderRadius: 10 }}
@@ -136,7 +136,7 @@ export const What = () => {
                   empresa.
                 </p>
                 <Image
-                priority={false}
+                priority
                   height={400}
                   className="hidden xl:block"
                   style={{ borderRadius: 10 }}
@@ -145,7 +145,7 @@ export const What = () => {
                   width={400}
                 />
                 <Image
-                priority={false}
+                priority
                   height={400}
                   className="block xl:hidden"
                   style={{ borderRadius: 10 }}
@@ -192,7 +192,7 @@ export const What = () => {
                   marca.
                 </p>
                 <Image
-                priority={false}
+                priority
                   height={400}
                   className="hidden xl:block"
                   style={{ borderRadius: 10 }}
@@ -201,7 +201,7 @@ export const What = () => {
                   width={400}
                 />
                 <Image
-                priority={false}
+                priority
                   height={400}
                   className="block xl:hidden"
                   style={{ borderRadius: 10 }}
@@ -245,7 +245,7 @@ export const What = () => {
                   não apenas atendam, mas superem suas expectativas.
                 </p>
                 <Image
-                priority={false}
+                priority
                   height={400}
                   className="hidden xl:block"
                   style={{ borderRadius: 10 }}
@@ -254,7 +254,7 @@ export const What = () => {
                   width={400}
                 />
                 <Image
-                priority={false}
+                priority
                   height={400}
                   className="xl:hidden block"
                   style={{ borderRadius: 10 }}
