@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="w-full">
       <Presentation />
-      <Warning/>
+      <Warning />
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         transition={{ duration: 1 }}

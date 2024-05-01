@@ -65,7 +65,7 @@ const Header = () => {
         </ul>
       </nav>
       <div className="md:hidden block mr-2 bg-white border-1 border-debpink/30 p-1 rounded-md">
-        <Menu isLazy>
+        <Menu>
           <MenuButton
             as={Button}
             variant={"ghost"}
