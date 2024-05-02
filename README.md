@@ -1,10 +1,10 @@
 
 # [![LOGO](https://i.postimg.cc/9FBSpBK5/LOGO-GRANDE2.png)](https://postimg.cc/VddDsXzD)
 
-## SCREENSHOOT 💻
+## SCREENSHOT 💻
 [![screeshoot-debsigner.png](https://i.postimg.cc/x8fDPF07/screeshoot-debsigner.png)](https://postimg.cc/5YRR4gQq)
 
-## SCREENSHOOT 📱
+## SCREENSHOT 📱
 [![screeshoot-mobile.png](https://i.postimg.cc/Pf90JxD9/screeshoot-mobile.png)](https://postimg.cc/V59KHzDW)
 
 ### Acesse: 🔗 [https://debsignerofficial.vercel.app](https://debsignerofficial.vercel.app)
