@@ -11,7 +11,7 @@ export const Footer = () => {
               Desenvolvido por: <br />
               <Link
                 className="font-bold underline"
-                href={"linkedin.com/in/leosousadev"}
+                href={"https://linkedin.com/in/leosousadev"}
               >
                 Leandro Sousa{" "}
               </Link>
