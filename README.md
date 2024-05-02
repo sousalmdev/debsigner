@@ -13,7 +13,11 @@ Landing page para a marca Debsigner, em plena ascenção e já mostrando a que v
 
 ### Recursos:
 
-### Serviços: Descubra os serviços oferecidos por Debsigner, desde design de logotipos, correção de imagens até edições de vídeos.
-### Ferramentas: Todos os aplicativos e programas que Debsigner utiliza para transformar suas demandas em arte e expressão.
-### Sobre: Saiba quem está por trás da marca, conheça Débora, founder da Debsigner. 
-### Contato: Entre em contato com Debsigner através do formulário de contato ou pelas redes sociais.
+### Serviços: 
+Descubra os serviços oferecidos por Debsigner, desde design de logotipos, correção de imagens até edições de vídeos.
+### Ferramentas:
+ Todos os aplicativos e programas que Debsigner utiliza para transformar suas demandas em arte e expressão.
+### Sobre:
+ Saiba quem está por trás da marca, conheça Débora, founder da Debsigner. 
+### Contato:
+ Entre em contato com Debsigner através do formulário de contato ou pelas redes sociais.
