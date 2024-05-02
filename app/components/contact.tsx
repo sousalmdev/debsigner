@@ -1,13 +1,13 @@
 import { Card, CardBody, CardFooter, CardHeader } from "@chakra-ui/card";
 import { Flex, Button, Text, ButtonGroup } from "@chakra-ui/react";
 import { CursorArrowIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
-
 import { BiLogoGmail, BiLogoWhatsapp } from "react-icons/bi";
 import { FiInstagram } from "react-icons/fi";
 import { SiBehance } from "react-icons/si";
 import { rale } from "../assets/fonts/fonts";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { FormContact } from "./form";
 
 export const Contact = () => {
   return (
@@ -108,17 +108,7 @@ export const Contact = () => {
               </ul>
             </CardBody>
             <CardFooter>
-              <Button
-                as={Link}
-                target="_blank"
-                href={""}
-                variant={"none"}
-                className="transition-all hover:text-debpink hover:bg-black bg-debpink text-white"
-                width={"80%"}
-                margin={"0 auto"}
-              >
-                Já vai o mail!
-              </Button>
+              <FormContact/>
             </CardFooter>
           </Card>
         </motion.div>
