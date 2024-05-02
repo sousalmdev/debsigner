@@ -11,7 +11,8 @@
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Chakra UI](https://img.shields.io/badge/Chakra_UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)
 ![ShadcnUI](https://img.shields.io/badge/ShadcnUI-000000?style=for-the-badge&logo=react&logoColor=white)
-![EmailJS](https://img.shields.io/badge/EmailJS-465EFB?style=for-the-badge&logo=email.js&logoColor=white)
+![EmailJS](https://img.shields.io/badge/EmailJS-465EFB?style=for-the-badge&logo=email&logoColor=white)
+
 
 
 
