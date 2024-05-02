@@ -6,7 +6,6 @@ import {
   FormControl,
   FormLabel,
   Input,
-  Textarea,
   Button,
   useDisclosure,
   ModalOverlay,
@@ -14,16 +13,13 @@ import {
   ModalCloseButton,
   Modal,
   ModalBody,
-  ModalFooter,
   ModalHeader,
   useToast,
   Icon,
 } from "@chakra-ui/react";
-import { BiLogoGmail } from "react-icons/bi";
-import { MdSend } from "react-icons/md";
+
 import { TbSend } from "react-icons/tb";
 
-// Estendendo o tipo Options para incluir a propriedade from_email
 interface CustomOptions {
   to_email?: string;
   to_name?: string;
@@ -59,7 +55,7 @@ export const FormContact: React.FC = () => {
           status: "success",
           duration: 3000,
           isClosable: false,
-          position: "bottom-right"
+          position: "bottom-right",
         });
         onClose();
       }
@@ -83,15 +79,15 @@ export const FormContact: React.FC = () => {
 
   return (
     <>
-     <Button
-                onClick={onOpen}
-                variant={"none"}
-                className="transition-all hover:text-debpink hover:bg-black bg-debpink text-white"
-                width={"80%"}
-                margin={"0 auto"}
-              >
-                Já vai o mail!
-              </Button>
+      <Button
+        onClick={onOpen}
+        variant={"none"}
+        className="transition-all hover:text-debpink hover:bg-black bg-debpink text-white"
+        width={"80%"}
+        margin={"0 auto"}
+      >
+        Já vai o mail!
+      </Button>
       <Modal
         size={{ base: "sm", sm: "lg" }}
         initialFocusRef={initialRef}
