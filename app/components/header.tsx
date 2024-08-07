@@ -13,7 +13,7 @@ const Header = () => {
     <header
       className={`${rale.className}  z-50   w-full fixed top-0 py-5 left-0 flex items-center md:border-none border text-debpink bg-white justify-center `}
     >
-      <nav className=" px-5 w-11/12 md:py-4 flex items-center md:rounded-full  md:shadow justify-between">
+      <nav className=" px-5 w-11/12 md:py-4 flex items-center md:rounded-full md:border  md:shadow-lg justify-between">
         <div>
           <Link href="#">
             <Image
