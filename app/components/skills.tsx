@@ -43,12 +43,12 @@ export const Skills = () => {
               <FiFigma className="sm:text-8xl text-7xl  text-debpink" />
               <br />
               <h1
-                className={`text-white sm:text-6xl text-2xl  text-center font-bold`}
+                className={`text-white sm:text-6xl text-2xl  text-left font-bold`}
               >
                 Figma
               </h1>
               <br />{" "}
-              <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
+              <p className="text-left font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
                 Uma ferramenta de design colaborativa baseada na web, amplamente
                 usada para criar interfaces de usuário, protótipos e designs
                 interativos. É popular entre designers e equipes de
@@ -60,12 +60,12 @@ export const Skills = () => {
               <SiAdobeaftereffects className="sm:text-8xl text-7xl text-yellow-600" />
               <br />
               <h1
-                className={`text-white sm:text-6xl text-2xl text-center font-bold`}
+                className={`text-white sm:text-6xl text-2xl text-left font-bold`}
               >
                 Adobe After Effects
               </h1>
               <br />{" "}
-              <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
+              <p className="text-left font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
                 Um software de pós-produção usado para criar efeitos visuais,
                 animações e composições em vídeos e filmes. É amplamente
                 utilizado na indústria cinematográfica e de produção de vídeo.
@@ -76,12 +76,12 @@ export const Skills = () => {
               <DiPhotoshop className="sm:text-8xl text-7xl text-blue-500" />
               <br />
               <h1
-                className={`text-white sm:text-6xl text-2xl text-center font-bold`}
+                className={`text-white sm:text-6xl text-2xl text-left font-bold`}
               >
                 Adobe Photoshop
               </h1>
               <br />{" "}
-              <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
+              <p className="text-left font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
                 O software de edição de imagens mais conhecido e usado no mundo.
                 Ele permite a manipulação de fotos, criação de gráficos e
                 designs, e é uma ferramenta essencial para designers e
@@ -93,12 +93,12 @@ export const Skills = () => {
               <SiAdobeillustrator className="sm:text-8xl text-7xl text-yellow-800" />
               <br />
               <h1
-                className={`text-white sm:text-6xl text-2xl text-center font-bold`}
+                className={`text-white sm:text-6xl text-2xl text-left font-bold`}
               >
                 Adobe Illustrator
               </h1>
               <br />{" "}
-              <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
+              <p className="text-left font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
                 Um programa de design vetorial usado para criar ilustrações,
                 logotipos, ícones e gráficos escaláveis. É popular entre
                 designers gráficos e artistas digitais.
@@ -109,12 +109,12 @@ export const Skills = () => {
               <SiAdobeindesign className="sm:text-8xl text-7xl text-debpink" />
               <br />
               <h1
-                className={`text-white sm:text-6xl text-2xl text-center font-bold`}
+                className={`text-white sm:text-6xl text-2xl text-left font-bold`}
               >
                 Adobe InDesign
               </h1>
               <br />{" "}
-              <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
+              <p className="text-left font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
                 Uma ferramenta de layout e design usada para criar layouts de
                 impressão, como revistas, livros e folhetos. É especialmente
                 útil para designers editoriais e profissionais de publicação.
@@ -125,12 +125,12 @@ export const Skills = () => {
               <SiAdobepremierepro className="sm:text-8xl text-7xl text-purple-400" />
               <br />
               <h1
-                className={`text-white sm:text-6xl text-2xl text-center font-bold`}
+                className={`text-white sm:text-6xl text-2xl text-left font-bold`}
               >
                 Adobe Premiere
               </h1>
               <br />{" "}
-              <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
+              <p className="text-left font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
                 {" "}
                 Um software de edição de vídeo usado para criar filmes, vídeos
                 promocionais e conteúdo para a web. É amplamente utilizado por
@@ -142,12 +142,12 @@ export const Skills = () => {
               <SiCanva className="sm:text-8xl text-7xl text-green-400" />
               <br />
               <h1
-                className={`text-white sm:text-6xl text-2xl text-center font-bold`}
+                className={`text-white sm:text-6xl text-2xl text-left font-bold`}
               >
                 Canva
               </h1>
               <br />{" "}
-              <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
+              <p className="text-left font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
                 Uma plataforma de design gráfico online que permite criar
                 facilmente gráficos, cartazes, mídia social e outros materiais
                 visuais. É popular entre empreendedores, blogueiros e pequenas
@@ -159,12 +159,12 @@ export const Skills = () => {
               <SiAdobelightroom className="sm:text-8xl text-7xl text-blue-700" />
               <br />
               <h1
-                className={`text-white sm:text-6xl text-2xl text-center font-bold`}
+                className={`text-white sm:text-6xl text-2xl text-left font-bold`}
               >
                 Adobe Lightroom
               </h1>
               <br />{" "}
-              <p className="text-center font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
+              <p className="text-left font-semibold text-debpink sm:text-2xl text-base md:w-11/12 w-full self-center">
                 Um aplicativo de edição de fotos usado por fotógrafos para
                 ajustar cores, exposição e outros aspectos das imagens. É
                 especialmente útil para organizar e aprimorar fotos em lotes.

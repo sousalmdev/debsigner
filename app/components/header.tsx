@@ -11,9 +11,9 @@ import { ChevronDownIcon } from "@radix-ui/react-icons";
 const Header = () => {
   return (
     <header
-      className={`${rale.className} border-b border-black/20 z-50 shadow  w-full fixed top-0 py-1 left-0 flex items-center text-debpink bg-white justify-center `}
+      className={`${rale.className}  z-50   w-full fixed top-0 py-5 left-0 flex items-center md:border-none border text-debpink bg-white justify-center `}
     >
-      <nav className=" px-1 w-11/12 flex items-center justify-between">
+      <nav className=" px-5 w-11/12 md:py-4 flex items-center md:rounded-full  md:shadow justify-between">
         <div>
           <Link href="#">
             <Image
@@ -33,30 +33,42 @@ const Header = () => {
             />
           </Link>
         </div>
-        <ul className="xl:flex items-center md:flex hidden sm:hidden divide-x">
+        <ul className="xl:flex items-center md:flex hidden sm:hidden ">
           <li className="px-2">
-            <Link className=" font-bold md:text-lg text-smcd" href="">
+            <Link
+              className=" font-bold md:text-lg hover:gradient-text text-sm"
+              href=""
+            >
               Home
             </Link>
           </li>
           <li className="px-2">
-            <Link className=" font-bold md:text-lg text-smcd" href="#do">
+            <Link
+              className=" font-bold md:text-lg hover:gradient-text text-sm"
+              href="#do"
+            >
               Trabalhos
             </Link>
           </li>
           <li className="px-2">
-            <Link className=" font-bold md:text-lg text-smcd" href="#skills">
+            <Link
+              className=" font-bold md:text-lg hover:gradient-text text-sm"
+              href="#skills"
+            >
               Habilidades
             </Link>
           </li>
           <li className="px-2">
-            <Link className=" font-bold md:text-lg text-smcd" href="#about">
+            <Link
+              className=" font-bold md:text-lg hover:gradient-text text-smcd"
+              href="#about"
+            >
               Sobre
             </Link>
           </li>
           <li className=" rounded-md px-5">
             <Link
-              className=" font-bold md:text-lg text-smcd bg-debpink py-2 px-4 text-white rounded-md flex items-center"
+              className=" transition font-bold md:text-lg text-smcd hover:bg-gradient-to-r from-debpink to-debpink-darker  bg-debpink py-2 px-4 text-white rounded-md flex items-center"
               href="#contact"
             >
               Contato <BiChat className="ml-1 text-base text-white" />

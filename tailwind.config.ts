@@ -19,7 +19,8 @@ const config = {
     },
     extend: {
       colors:{
-        'debpink':'#ff053b'
+        'debpink':'#ff053b',
+        'debpink-darker':'#73021b'
       },
       keyframes: {
         "accordion-down": {

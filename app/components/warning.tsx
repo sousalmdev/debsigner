@@ -9,7 +9,7 @@ export const Warning = () => {
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1, y: 0 }}
     >
-      <div className="bg-black py-1 text-white">
+      <div className="bg-black pb-1 pt-4 text-white">
         <h1
           className={`mb-2 md:text-6xl text-debpink font-black text-5xl text-center`}
         >
