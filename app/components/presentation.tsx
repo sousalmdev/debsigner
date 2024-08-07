@@ -28,7 +28,7 @@ export const Presentation = () => {
             <p className="xl:text-3xl italic sm:text-xl md:text-3xl text-gray-500 text-base mt-5 xl:w-4/5 w-full xl:text-left font-light text-center">
               Mais que criar simples grupos de cores e figuras, somos
               direcionados a trazer emoções em formato de arte, detalhe por
-              detalhe, identidade e compromisso com o que sua marca mais
+              detalhe, identidade e compromisso com o que você mais
               precisar!{" "}
             </p>
           </div>
