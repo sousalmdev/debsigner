@@ -7,7 +7,7 @@ import logofav from "@/app/assets/favicon.ico";
 import { Footer } from "./components/footer";
 
 export const metadata: Metadata = {
-  title: "Debsigner",
+  title: "Debsigner - Materializando seu sucesso!",
   description: "Materialize sua identidade!",
   icons: {
     shortcut: logofav.src,
